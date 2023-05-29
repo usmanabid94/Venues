@@ -1,0 +1,392 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-community_async-storage] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_checkbox] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_geolocation] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-community_picker] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-geolocation-service] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
+MERGED from [:rn-range-slider] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/rn-range-slider/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/46aea1919d1efe214d9005cd2a5c4f84/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b595358dad8edad7b942ab2a208ae2f8/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/apple/.gradle/caches/transforms-2/files-2.1/0b1e4e33336417cbff6406b0ce4a3671/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/bb75bcd21c3843351ad816bf1e4687ae/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ed3a8bc04cf4f46776446bae7f49f85/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5c755055063329d1894b3cc62a22c4d3/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/59d752898a9c309d2f9231839590d069/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe73caf2fde3b68b31837790955fc8b3/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/134fedfe282fcfe915881af441b9f1fe/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fd73428fb13019004db559c2e8c91e3d/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/e6bbba5412f78910167fdc2351191003/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6b37226bb42fbba90f9b91e43a50da38/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18a944f4342e522c73f6dbd41b8d5b85/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/9bf4ae02873828a191794a32b06c46dd/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a7a72a86567071222af85e0f00159bbd/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f1acae21e5f12f8865dc1cfae7641c50/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/32ee26b3d008edd3b6d305fb2fa718ac/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1e7ea5ef4801f204c162a094f063200b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/545a2b6664722f4ed875eb466b87e6a6/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/44ebd488cd70b8db33f0ae8906d592e0/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e703e1f08fe3f2413b676208c12663fa/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b02d6437cec1d45420fc3e8268f4ff71/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d9e49db230057dd24b81688d4d0e68ab/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e186aec312c0582dff6eda4d0d69e709/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d01e271bd74c42f82651fab4141105dc/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18b7ddb4fed156af61f82a4a1b7e5b31/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a4e3d5ece0abf3044223baed504c297a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9a8af9e98fb8d65a6063c19dce6052ef/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/38185a02364afbb78f8265b6006b9a47/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cfe81a26c53c0499ad3bc9beebbfc92b/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3d8b072193a19f367fc925ca3e8b4539/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/547207d05113e0928f71be6a540d1d17/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b25e1428b440ee8adccbdc86389839e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/74c221da32cf4943bf681c90563f232b/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9f8348231e8d22e3fd3dc45c80d021e/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/953b5cdfc874b4d828d08f7f69380939/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/7cbb4b3ff414230c079f82770ad1ee5f/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+	package
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:2:5-28
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:6:5-81
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:6:22-78
+application
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:9:5-36:19
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/46aea1919d1efe214d9005cd2a5c4f84/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/46aea1919d1efe214d9005cd2a5c4f84/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/e6bbba5412f78910167fdc2351191003/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/e6bbba5412f78910167fdc2351191003/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6b37226bb42fbba90f9b91e43a50da38/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6b37226bb42fbba90f9b91e43a50da38/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:11:9-36
+	android:theme
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.propertya.MainActivity
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:17:9-28:20
+	android:label
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:21:13-45
+	android:launchMode
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:22:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:23:13-55
+	android:exported
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:20:13-36
+	android:configChanges
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:19:13-90
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:29:9-31:39
+	android:exported
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:30:13-77
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:33:9-35:71
+	android:value
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:35:13-68
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml:34:13-58
+uses-sdk
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_geolocation] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-range-slider] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/rn-range-slider/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-range-slider] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/rn-range-slider/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/46aea1919d1efe214d9005cd2a5c4f84/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/46aea1919d1efe214d9005cd2a5c4f84/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b595358dad8edad7b942ab2a208ae2f8/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b595358dad8edad7b942ab2a208ae2f8/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/apple/.gradle/caches/transforms-2/files-2.1/0b1e4e33336417cbff6406b0ce4a3671/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/apple/.gradle/caches/transforms-2/files-2.1/0b1e4e33336417cbff6406b0ce4a3671/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/bb75bcd21c3843351ad816bf1e4687ae/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/bb75bcd21c3843351ad816bf1e4687ae/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ed3a8bc04cf4f46776446bae7f49f85/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ed3a8bc04cf4f46776446bae7f49f85/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5c755055063329d1894b3cc62a22c4d3/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5c755055063329d1894b3cc62a22c4d3/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/59d752898a9c309d2f9231839590d069/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/59d752898a9c309d2f9231839590d069/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe73caf2fde3b68b31837790955fc8b3/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe73caf2fde3b68b31837790955fc8b3/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/134fedfe282fcfe915881af441b9f1fe/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/134fedfe282fcfe915881af441b9f1fe/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fd73428fb13019004db559c2e8c91e3d/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fd73428fb13019004db559c2e8c91e3d/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/e6bbba5412f78910167fdc2351191003/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/e6bbba5412f78910167fdc2351191003/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6b37226bb42fbba90f9b91e43a50da38/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6b37226bb42fbba90f9b91e43a50da38/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18a944f4342e522c73f6dbd41b8d5b85/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18a944f4342e522c73f6dbd41b8d5b85/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/9bf4ae02873828a191794a32b06c46dd/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/9bf4ae02873828a191794a32b06c46dd/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a7a72a86567071222af85e0f00159bbd/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a7a72a86567071222af85e0f00159bbd/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f1acae21e5f12f8865dc1cfae7641c50/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f1acae21e5f12f8865dc1cfae7641c50/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/32ee26b3d008edd3b6d305fb2fa718ac/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/32ee26b3d008edd3b6d305fb2fa718ac/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1e7ea5ef4801f204c162a094f063200b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1e7ea5ef4801f204c162a094f063200b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/545a2b6664722f4ed875eb466b87e6a6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/545a2b6664722f4ed875eb466b87e6a6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/44ebd488cd70b8db33f0ae8906d592e0/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/44ebd488cd70b8db33f0ae8906d592e0/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e703e1f08fe3f2413b676208c12663fa/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e703e1f08fe3f2413b676208c12663fa/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b02d6437cec1d45420fc3e8268f4ff71/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b02d6437cec1d45420fc3e8268f4ff71/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d9e49db230057dd24b81688d4d0e68ab/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d9e49db230057dd24b81688d4d0e68ab/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e186aec312c0582dff6eda4d0d69e709/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e186aec312c0582dff6eda4d0d69e709/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d01e271bd74c42f82651fab4141105dc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d01e271bd74c42f82651fab4141105dc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18b7ddb4fed156af61f82a4a1b7e5b31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18b7ddb4fed156af61f82a4a1b7e5b31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a4e3d5ece0abf3044223baed504c297a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a4e3d5ece0abf3044223baed504c297a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9a8af9e98fb8d65a6063c19dce6052ef/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9a8af9e98fb8d65a6063c19dce6052ef/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/38185a02364afbb78f8265b6006b9a47/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/38185a02364afbb78f8265b6006b9a47/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cfe81a26c53c0499ad3bc9beebbfc92b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cfe81a26c53c0499ad3bc9beebbfc92b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3d8b072193a19f367fc925ca3e8b4539/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3d8b072193a19f367fc925ca3e8b4539/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/547207d05113e0928f71be6a540d1d17/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/547207d05113e0928f71be6a540d1d17/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b25e1428b440ee8adccbdc86389839e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b25e1428b440ee8adccbdc86389839e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/74c221da32cf4943bf681c90563f232b/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/74c221da32cf4943bf681c90563f232b/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9f8348231e8d22e3fd3dc45c80d021e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9f8348231e8d22e3fd3dc45c80d021e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/953b5cdfc874b4d828d08f7f69380939/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/953b5cdfc874b4d828d08f7f69380939/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/7cbb4b3ff414230c079f82770ad1ee5f/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/7cbb4b3ff414230c079f82770ad1ee5f/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:22-73
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanData/Propertya-Real-Estate-App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+package
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/e6bbba5412f78910167fdc2351191003/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6b37226bb42fbba90f9b91e43a50da38/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6b37226bb42fbba90f9b91e43a50da38/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/e6bbba5412f78910167fdc2351191003/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/e6bbba5412f78910167fdc2351191003/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58

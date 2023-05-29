@@ -1,0 +1,6 @@
+module Pods_Propertya {
+  umbrella header "Pods-Propertya-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,452 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d8fb2cfc91ca7fc55a3f55711ee87c47/flipper-0.37.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/7928c6bfefecffa8fab3c25b01cbb733/flipper-network-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ea515dc635948ff842434a56f20a59c/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-community_async-storage] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_checkbox] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_geolocation] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-community_picker] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-geolocation-service] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:rn-range-slider] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/rn-range-slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/f5c0f57843a1404aa509c4814372007d/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b595358dad8edad7b942ab2a208ae2f8/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/apple/.gradle/caches/transforms-2/files-2.1/0b1e4e33336417cbff6406b0ce4a3671/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f676dd4ba61477e2acbe06b85bf648e9/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9eb23af7c96123bc0f0cebff63610244/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/62b817587851c925949bf6906a2a604f/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ed3a8bc04cf4f46776446bae7f49f85/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3152c7ddb22f43939bdd0f57fe6a69b5/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d08895e757f4193a9c6c36b3bca6cdcd/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4e4603fabaca5836dde359f3bb327549/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b9fd5b37d49a81805191f937c27b9d09/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/33f4fabc991b8f63b1250917dc286f9e/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5029f35968719efefd27fe0ebac5675f/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ad901f9192f96069581cdc96af15ee90/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a950a95edf272d50fd8c45eefcad742f/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/961b4a5faab21d702a5b98dfa7299ab2/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c557d5e99a0e4beb347f73972e118c4a/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d102ee71fae3b2cd451eca7e47291d44/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18a944f4342e522c73f6dbd41b8d5b85/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/9bf4ae02873828a191794a32b06c46dd/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a7a72a86567071222af85e0f00159bbd/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f1acae21e5f12f8865dc1cfae7641c50/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/32ee26b3d008edd3b6d305fb2fa718ac/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1e7ea5ef4801f204c162a094f063200b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/545a2b6664722f4ed875eb466b87e6a6/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/44ebd488cd70b8db33f0ae8906d592e0/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e703e1f08fe3f2413b676208c12663fa/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b02d6437cec1d45420fc3e8268f4ff71/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d9e49db230057dd24b81688d4d0e68ab/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e186aec312c0582dff6eda4d0d69e709/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d01e271bd74c42f82651fab4141105dc/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18b7ddb4fed156af61f82a4a1b7e5b31/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a4e3d5ece0abf3044223baed504c297a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9a8af9e98fb8d65a6063c19dce6052ef/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/38185a02364afbb78f8265b6006b9a47/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cfe81a26c53c0499ad3bc9beebbfc92b/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3d8b072193a19f367fc925ca3e8b4539/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/547207d05113e0928f71be6a540d1d17/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b25e1428b440ee8adccbdc86389839e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/74c221da32cf4943bf681c90563f232b/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9f8348231e8d22e3fd3dc45c80d021e/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fad33af626fdb7f5fa0d09f1451d1652/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe4a48b774833795a5ebe13bb76baa57/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/549030e0b19b51f0f1d5427c234833bf/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:2:5-25
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:2:5-25
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d8fb2cfc91ca7fc55a3f55711ee87c47/flipper-0.37.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d8fb2cfc91ca7fc55a3f55711ee87c47/flipper-0.37.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:6:5-81
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:6:22-78
+application
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:9:5-36:19
+MERGED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:9:5-36:19
+MERGED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:9:5-36:19
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/f5c0f57843a1404aa509c4814372007d/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/f5c0f57843a1404aa509c4814372007d/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d102ee71fae3b2cd451eca7e47291d44/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d102ee71fae3b2cd451eca7e47291d44/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:13:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:14:9-43
+	tools:ignore
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:15:9-54
+	tools:targetApi
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:11:9-36
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:11:9-36
+	android:theme
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:16:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:10:9-40
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.venues.MainActivity
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:17:9-28:20
+	android:label
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:21:13-45
+	android:launchMode
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:22:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:23:13-55
+	android:exported
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:20:13-36
+	android:configChanges
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:19:13-90
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:29:9-31:39
+	android:exported
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:30:13-77
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:33:9-35:71
+	android:value
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:35:13-68
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:34:13-58
+uses-sdk
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d8fb2cfc91ca7fc55a3f55711ee87c47/flipper-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d8fb2cfc91ca7fc55a3f55711ee87c47/flipper-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/7928c6bfefecffa8fab3c25b01cbb733/flipper-network-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/7928c6bfefecffa8fab3c25b01cbb733/flipper-network-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ea515dc635948ff842434a56f20a59c/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ea515dc635948ff842434a56f20a59c/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_geolocation] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-range-slider] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/rn-range-slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-range-slider] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/rn-range-slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/f5c0f57843a1404aa509c4814372007d/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/f5c0f57843a1404aa509c4814372007d/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/094d483ad77960c56ad72f1eeeb5f891/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b595358dad8edad7b942ab2a208ae2f8/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b595358dad8edad7b942ab2a208ae2f8/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/apple/.gradle/caches/transforms-2/files-2.1/0b1e4e33336417cbff6406b0ce4a3671/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/apple/.gradle/caches/transforms-2/files-2.1/0b1e4e33336417cbff6406b0ce4a3671/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f676dd4ba61477e2acbe06b85bf648e9/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f676dd4ba61477e2acbe06b85bf648e9/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9eb23af7c96123bc0f0cebff63610244/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9eb23af7c96123bc0f0cebff63610244/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/62b817587851c925949bf6906a2a604f/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/62b817587851c925949bf6906a2a604f/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ed3a8bc04cf4f46776446bae7f49f85/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ed3a8bc04cf4f46776446bae7f49f85/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3152c7ddb22f43939bdd0f57fe6a69b5/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3152c7ddb22f43939bdd0f57fe6a69b5/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d08895e757f4193a9c6c36b3bca6cdcd/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d08895e757f4193a9c6c36b3bca6cdcd/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4e4603fabaca5836dde359f3bb327549/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4e4603fabaca5836dde359f3bb327549/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b9fd5b37d49a81805191f937c27b9d09/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b9fd5b37d49a81805191f937c27b9d09/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/33f4fabc991b8f63b1250917dc286f9e/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/33f4fabc991b8f63b1250917dc286f9e/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5029f35968719efefd27fe0ebac5675f/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5029f35968719efefd27fe0ebac5675f/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ad901f9192f96069581cdc96af15ee90/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ad901f9192f96069581cdc96af15ee90/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a950a95edf272d50fd8c45eefcad742f/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a950a95edf272d50fd8c45eefcad742f/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/961b4a5faab21d702a5b98dfa7299ab2/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/961b4a5faab21d702a5b98dfa7299ab2/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c557d5e99a0e4beb347f73972e118c4a/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c557d5e99a0e4beb347f73972e118c4a/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/dbd8c0961158c6a3272fca437847b0a5/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9985aececc2e4f4b7210f391dcaa935/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2dc3db12ed56e4cbd5c4a272d0c5c85b/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d102ee71fae3b2cd451eca7e47291d44/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d102ee71fae3b2cd451eca7e47291d44/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18a944f4342e522c73f6dbd41b8d5b85/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18a944f4342e522c73f6dbd41b8d5b85/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/9bf4ae02873828a191794a32b06c46dd/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/9bf4ae02873828a191794a32b06c46dd/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a7a72a86567071222af85e0f00159bbd/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a7a72a86567071222af85e0f00159bbd/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f1acae21e5f12f8865dc1cfae7641c50/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f1acae21e5f12f8865dc1cfae7641c50/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/32ee26b3d008edd3b6d305fb2fa718ac/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/32ee26b3d008edd3b6d305fb2fa718ac/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1e7ea5ef4801f204c162a094f063200b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1e7ea5ef4801f204c162a094f063200b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/545a2b6664722f4ed875eb466b87e6a6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/545a2b6664722f4ed875eb466b87e6a6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/44ebd488cd70b8db33f0ae8906d592e0/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/44ebd488cd70b8db33f0ae8906d592e0/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e703e1f08fe3f2413b676208c12663fa/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e703e1f08fe3f2413b676208c12663fa/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b02d6437cec1d45420fc3e8268f4ff71/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/b02d6437cec1d45420fc3e8268f4ff71/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d9e49db230057dd24b81688d4d0e68ab/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d9e49db230057dd24b81688d4d0e68ab/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e186aec312c0582dff6eda4d0d69e709/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e186aec312c0582dff6eda4d0d69e709/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d01e271bd74c42f82651fab4141105dc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d01e271bd74c42f82651fab4141105dc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/6a82cf4913b73c08a0c47a3beac91155/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18b7ddb4fed156af61f82a4a1b7e5b31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18b7ddb4fed156af61f82a4a1b7e5b31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a4e3d5ece0abf3044223baed504c297a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a4e3d5ece0abf3044223baed504c297a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9a8af9e98fb8d65a6063c19dce6052ef/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9a8af9e98fb8d65a6063c19dce6052ef/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/38185a02364afbb78f8265b6006b9a47/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/38185a02364afbb78f8265b6006b9a47/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cfe81a26c53c0499ad3bc9beebbfc92b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cfe81a26c53c0499ad3bc9beebbfc92b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3d8b072193a19f367fc925ca3e8b4539/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/3d8b072193a19f367fc925ca3e8b4539/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/547207d05113e0928f71be6a540d1d17/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/547207d05113e0928f71be6a540d1d17/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b25e1428b440ee8adccbdc86389839e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b25e1428b440ee8adccbdc86389839e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/74c221da32cf4943bf681c90563f232b/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/74c221da32cf4943bf681c90563f232b/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9f8348231e8d22e3fd3dc45c80d021e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e9f8348231e8d22e3fd3dc45c80d021e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/apple/.gradle/caches/transforms-2/files-2.1/0bde35579553e82a6828d40493eee856/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fad33af626fdb7f5fa0d09f1451d1652/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fad33af626fdb7f5fa0d09f1451d1652/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe4a48b774833795a5ebe13bb76baa57/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe4a48b774833795a5ebe13bb76baa57/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/549030e0b19b51f0f1d5427c234833bf/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/549030e0b19b51f0f1d5427c234833bf/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d8fb2cfc91ca7fc55a3f55711ee87c47/flipper-0.37.0/AndroidManifest.xml:16:5-76
+MERGED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
+MERGED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d8fb2cfc91ca7fc55a3f55711ee87c47/flipper-0.37.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+package
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d102ee71fae3b2cd451eca7e47291d44/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d102ee71fae3b2cd451eca7e47291d44/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58
