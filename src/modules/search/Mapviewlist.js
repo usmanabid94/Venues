@@ -33,7 +33,9 @@ class Mapviewlist extends Component {
       currentPage: 0,
       totalPages: 0,
       updatedVenues: [],
+      scrollOffset: 0,
     };
+    this.scrollRef = React.createRef();
   }
   componentDidMount() {
     this.fetchVenues();
@@ -73,9 +75,23 @@ class Mapviewlist extends Component {
         this.setState({ count: data.total_count });
         this.setState({ currentPage: data.current_page });
         this.setState({ totalPages: data.total_pages });
+        // Get the current scroll offset
+        const currentOffset = this.scrollRef.current
+          ? this.scrollRef.current._listRef._scrollMetrics.offset
+          : 0;
         this.setState({
-          updatedVenues: [...this.props.venueLists.results],
+          updatedVenues: [
+            ...this.state.updatedVenues,
+            ...this.props.venueLists.results,
+          ],
         });
+        // Restore the scroll position
+        if (this.scrollRef.current) {
+          this.scrollRef.current.scrollToOffset({
+            offset: currentOffset,
+            animated: false,
+          });
+        }
         const loadmoreupdatedVenues = [
           ...this.props.venueLists.results,
           ...data.results,
@@ -102,7 +118,7 @@ class Mapviewlist extends Component {
         this.setState({ count: data.total_count });
         this.setState({ currentPage: data.current_page });
         this.setState({ totalPages: data.total_pages });
-        this.setState({ updatedVenues: [data.results] });
+        this.setState({ updatedVenues: data.results });
         var maplistx = data.results.filter(
           (item) => item.lat != null && item.lat != ""
         );
@@ -274,8 +290,15 @@ class Mapviewlist extends Component {
       </View>
     );
   };
-
+  handleScrollToIndexFailed = () => {
+    setTimeout(() => {
+      if (this.scrollRef.current) {
+        this.scrollRef.current.scrollToIndex({ index: this.state.updatedVenues.length - 1, animated: false, viewPosition: 0 });
+      }
+    }, 200);
+  };
   render() {
+    console.log("this.state.updatedVenues", this.state.updatedVenues);
     return (
       <View style={Helpers.GLOBAL_SHEET.maxHWCC}>
         {this.props.loading ? (
@@ -333,21 +356,6 @@ class Mapviewlist extends Component {
               </Text>
               {/* Venue count Ends */}
             </View>
-            {/* Flat list to load Venues */}
-            {this.state.maplist.length > 0 ? (
-              <FlatList
-                data={this.props.venueLists.results}
-                keyExtractor={(item) => item.id}
-                key={(item) => item.id}
-                horizontal={true}
-                pagingEnabled={true}
-                onEndReached={()=>this.loadMore()}
-                onRefresh={()=>this.onRefresh()}
-                renderItem={this.renderItem}
-              />
-            ) : (
-              <></>
-            )}
             {this.state.showBottom
               ? [
                   <View style={styles.listBtn}>
@@ -493,7 +501,26 @@ class Mapviewlist extends Component {
                     </View>
                   </View>,
                 ]
-              : []}
+              : [
+                  this.state.maplist.length > 0 ? (
+                    <FlatList
+                      ref={this.scrollRef}
+                      data={this.state.updatedVenues} //this.props.venueLists.results}
+                      keyExtractor={(item, index) => index.toString()}
+                      key={(item) => item.id}
+                      horizontal={true}
+                      pagingEnabled={true}
+                      onEndReached={() => this.loadMore()}
+                      onRefresh={() => this.onRefresh()}
+                      renderItem={this.renderItem}
+                      onEndReachedThreshold={0.1} // Adjust this threshold to trigger pagination appropriately
+                      initialScrollIndex={this.state.updatedVenues.length - 1}
+                      onScrollToIndexFailed={this.handleScrollToIndexFailed}
+                    />
+                  ) : (
+                    <></>
+                  ),
+                ]}
           </>
         )}
       </View>

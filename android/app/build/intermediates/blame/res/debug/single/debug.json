@@ -1,19 +1,27 @@
 [
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_node_modules_reactnativecountrypickermodal_lib_assets_images_close.png.flat",
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/node_modules_reactnativecountrypickermodal_lib_assets_images_close.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_splashbottom.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_splashbottom.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_amu_unknwown_folder.kml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/res/raw/amu_unknwown_folder.kml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_home.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_home.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_amu_bubble_shadow.9.png.flat",
@@ -40,12 +48,20 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_amu_draw_order_ground_overlay.kml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/res/raw/amu_draw_order_ground_overlay.kml"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_left_arrow.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_left_arrow.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_nearby.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_nearby.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_amu_draw_order_ground_overlay.kml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/res/raw/amu_draw_order_ground_overlay.kml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_abc_vector_test.xml.flat",
@@ -64,12 +80,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_dummylistitem_three.png.flat",
-        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_dummylistitem_three.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_dummylistitem_three.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_dummylistitem_three.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
@@ -96,6 +112,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_tag.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_tag.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
@@ -120,12 +140,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_list.png.flat",
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_list.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_btn_radio_on_mtrl.xml.flat",
@@ -180,12 +200,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_btn_text_btn_bg_color_selector.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
@@ -196,12 +216,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_mtrl_tabs_ripple_color.xml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_tabs_ripple_color.xml"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim-v21_fragment_fast_out_extra_slow_in.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9bf4ae02873828a191794a32b06c46dd/fragment-1.2.1/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_mtrl_tabs_ripple_color.xml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_tabs_ripple_color.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
@@ -224,6 +244,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_locationmap.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_locationmap.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -232,16 +256,16 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_checked_box_inner_merged_animation.xml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_text_view_without_line_height.xml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/text_view_without_line_height.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_text_view_without_line_height.xml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/text_view_without_line_height.xml"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_checked_box_inner_merged_animation.xml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -264,20 +288,28 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_abc_tint_default.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/drawable/design_fab_background.xml"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_design_fab_background.xml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/drawable/design_fab_background.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim_btn_radio_to_on_mtrl_ring_outer_path_animation.xml.flat",
@@ -336,6 +368,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_bath_detail.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_bath_detail.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -384,16 +420,32 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_cloud.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_cloud.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_writereview.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_writereview.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_statistic.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_statistic.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_featured_badge.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_featured_badge.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -418,6 +470,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_amu_cdata.kml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/res/raw/amu_cdata.kml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_pinpoint.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_pinpoint.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -488,6 +544,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-v23_abc_control_background_material.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-v23/abc_control_background_material.xml"
     },
@@ -528,28 +588,28 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_yelpicon.png.flat",
-        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_yelpicon.png"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_attachments.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_attachments.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_redbox_item_title.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/0a963560ad6ddea57b363e51dfc7f59d/jetified-react-native-0.63.2/res/layout/redbox_item_title.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_attachments.png.flat",
-        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_attachments.png"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_yelpicon.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_yelpicon.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/xml_standalone_badge.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/xml/standalone_badge.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_filetypejpg.png.flat",
-        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_filetypejpg.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_bathtub_searchlist.png.flat",
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_bathtub_searchlist.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_filetypejpg.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_filetypejpg.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -560,12 +620,16 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable/abc_btn_borderless_material.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_virturaltour.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_virturaltour.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -576,12 +640,16 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_tick.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_tick.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -632,6 +700,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_heart_empty.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_heart_empty.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/color/switch_thumb_material_dark.xml"
     },
@@ -650,6 +722,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_filetypedoc.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_filetypedoc.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
@@ -716,6 +792,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_navigate.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_navigate.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
     },
@@ -744,12 +824,12 @@
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_locationmap.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_mtrl_navigation_item_icon_tint.xml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_navigation_item_icon_tint.xml"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_mtrl_navigation_item_icon_tint.xml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_navigation_item_icon_tint.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
@@ -774,6 +854,14 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim_fragment_close_exit.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9bf4ae02873828a191794a32b06c46dd/fragment-1.2.1/res/anim/fragment_close_exit.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_clock.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_clock.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_floorplan.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_floorplan.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_mtrl_navigation_item_background_color.xml.flat",
@@ -812,6 +900,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/animator/mtrl_extended_fab_show_motion_spec.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_bed_searchlist.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_bed_searchlist.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_amu_ground_overlay.kml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/res/raw/amu_ground_overlay.kml"
     },
@@ -848,6 +940,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_propertya_logo.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_propertya_logo.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/animator_mtrl_btn_state_list_anim.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/animator/mtrl_btn_state_list_anim.xml"
     },
@@ -862,6 +958,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_dummylistitem_one.png.flat",
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_dummylistitem_one.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_clock.png.flat",
@@ -882,6 +982,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_bed.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_bed.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -946,6 +1050,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_dark.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_sqft.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_sqft.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -1020,12 +1128,24 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_dummylistitem_two.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_dummylistitem_two.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_rating.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_rating.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_ic_calendar_black_24dp.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/drawable/ic_calendar_black_24dp.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_mtrl_layout_snackbar.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1036,24 +1156,28 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable/abc_btn_check_material.xml"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_amu_nested_multigeometry.kml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/res/raw/amu_nested_multigeometry.kml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_abc_screen_simple_overlay_action_mode.xml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_cooler.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_cooler.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_test_action_chip.xml.flat",
@@ -1064,12 +1188,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_text_view_with_line_height_from_style.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/text_view_with_line_height_from_style.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -1112,6 +1236,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/drawable/mtrl_tabs_default_indicator.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_app.json.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/raw/app.json"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_gear.png.flat",
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_gear.png"
     },
@@ -1122,6 +1250,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_pinpoint.png.flat",
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_pinpoint.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
@@ -1136,12 +1268,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_fps_view.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/0a963560ad6ddea57b363e51dfc7f59d/jetified-react-native-0.63.2/res/layout/fps_view.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_mtrl_picker_dialog.xml.flat",
@@ -1168,6 +1300,10 @@
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_monochrome.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_garage_detail.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_garage_detail.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_mtrl_layout_snackbar_include.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/mtrl_layout_snackbar_include.xml"
     },
@@ -1188,6 +1324,10 @@
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
@@ -1196,12 +1336,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_camera.png.flat",
@@ -1210,6 +1350,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_mtrl_filled_background_color.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_filled_background_color.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_appintro_hands.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_appintro_hands.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -1300,12 +1444,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_material_on_background_disabled.xml.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/material_on_background_disabled.xml"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_material_on_background_disabled.xml.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/material_on_background_disabled.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -1320,12 +1464,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_design_bottom_sheet_dialog.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1352,12 +1496,12 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/xml/standalone_badge_gravity_bottom_start.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_custom_dialog.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/xml_standalone_badge_gravity_top_start.xml.flat",
@@ -1584,6 +1728,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_gear.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_gear.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_mtrl_extended_fab_text_color_selector.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_extended_fab_text_color_selector.xml"
     },
@@ -1610,6 +1758,14 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_amu_visibility_ground_overlay.kml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/res/raw/amu_visibility_ground_overlay.kml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_mortgagecal.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_mortgagecal.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_list.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_list.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_monochrome.png.flat",
@@ -1660,6 +1816,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_office.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_office.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_test_toolbar.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/test_toolbar.xml"
     },
@@ -1694,6 +1854,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_btn_radio_on_to_off_mtrl_animation.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_hotel.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_hotel.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -1812,6 +1976,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/color-v21/abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_floorplanimg.jpeg.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_floorplanimg.jpeg"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-v21_design_password_eye.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/drawable-v21/design_password_eye.xml"
     },
@@ -1846,6 +2014,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_light.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_firealarm.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_firealarm.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
@@ -1884,12 +2056,20 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/layout/abc_screen_simple.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_filetypepdf.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_filetypepdf.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_like.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_like.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_out.xml.flat",
@@ -2072,8 +2252,16 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/mtrl_alert_select_dialog_multichoice.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_shadow.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_shadow.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_map.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_map.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat",
@@ -2098,6 +2286,14 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/raw_amu_basic_folder.kml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/5516036a9d2545ff25b0c6f9a6781098/jetified-android-maps-utils-0.5/res/raw/amu_basic_folder.kml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_factory.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_factory.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_area.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_area.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -2152,6 +2348,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/drawable-v23/mtrl_popupmenu_background_dark.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_schedule.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_schedule.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_mtrl_card_view_foreground.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_card_view_foreground.xml"
     },
@@ -2162,6 +2362,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_src_assets_images_splashbottom.png.flat",
         "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable/src_assets_images_splashbottom.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_shares.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_shares.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
@@ -2210,6 +2414,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_bed_detail.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_bed_detail.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -2298,6 +2506,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/animator_design_fab_show_motion_spec.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/animator/design_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_custommarker.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_custommarker.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility_off.png.flat",
@@ -2448,6 +2660,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_dummylistitem_three.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_dummylistitem_three.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -2572,8 +2788,16 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_globe.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_globe.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_camera.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_camera.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_design_menu_item_action_area.xml.flat",
@@ -2584,12 +2808,20 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/design_layout_snackbar.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_phonecall.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_phonecall.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_mtrl_calendar_month.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/mtrl_calendar_month.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_down_arrow.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_down_arrow.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -2632,6 +2864,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/mtrl_calendar_horizontal.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_bathtub.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_bathtub.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
@@ -2646,6 +2882,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_appartments.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_appartments.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -2716,6 +2956,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-watch-v20/abc_dialog_material_background.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_heart_filled.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_heart_filled.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/layout_design_navigation_menu.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/design_navigation_menu.xml"
     },
@@ -2750,6 +2994,14 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_question.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_question.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_dislike.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_dislike.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility.png.flat",
@@ -2804,6 +3056,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_balcony.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_balcony.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -2826,6 +3082,14 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_material_on_background_emphasis_medium.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/material_on_background_emphasis_medium.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_next.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_next.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_bathtub_searchlist.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_bathtub_searchlist.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat",
@@ -2868,6 +3132,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_appintro_bluehome.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_appintro_bluehome.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/color/abc_search_url_text.xml"
     },
@@ -2892,6 +3160,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/layout/abc_action_mode_bar.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_warehouse.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_warehouse.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_ic_edit_black_24dp.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/drawable/ic_edit_black_24dp.xml"
     },
@@ -2908,12 +3180,24 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_on_primary_text_btn_text_color_selector.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_whatsapp.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_whatsapp.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_attachments.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_attachments.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_calculator.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_calculator.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -2934,6 +3218,14 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_mail.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_mail.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_filetypejpg.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_filetypejpg.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
@@ -2994,6 +3286,10 @@
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_search.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_search.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -3064,6 +3360,10 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/color/mtrl_calendar_selected_range.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_dummylistitem_one.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_dummylistitem_one.png"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fc71357f1841c9eef3344b93da399c51/appcompat-1.1.0/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -3104,8 +3404,16 @@
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9f24137a6146d975cae35da980eb68d9/material-1.1.0/res/layout/mtrl_alert_dialog_title.xml"
     },
     {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_person.jpeg.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_person.jpeg"
+    },
+    {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
         "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/978e4b611ee9c516cbeb9be0a1da1121/play-services-base-18.1.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_images_park.png.flat",
+        "source": "/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/res/drawable-mdpi/src_assets_images_park.png"
     },
     {
         "merged": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
