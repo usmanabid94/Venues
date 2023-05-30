@@ -9,23 +9,23 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:4:22-64
+12-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:5:5-79
-13-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:5:22-76
+13-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:5:22-76
 14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-14-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:6:5-81
-14-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:6:22-78
+14-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:6:5-81
+14-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:6:22-78
 15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 15-->[com.facebook.flipper:flipper:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d8fb2cfc91ca7fc55a3f55711ee87c47/flipper-0.37.0/AndroidManifest.xml:16:5-76
 15-->[com.facebook.flipper:flipper:0.37.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d8fb2cfc91ca7fc55a3f55711ee87c47/flipper-0.37.0/AndroidManifest.xml:16:22-73
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[:react-native-community_netinfo] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
-16-->[:react-native-community_netinfo] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+16-->[:react-native-community_netinfo] /Users/apple/Desktop/UsmanData/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+16-->[:react-native-community_netinfo] /Users/apple/Desktop/UsmanData/Venues/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
 17
 18    <uses-feature
 18-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
@@ -44,81 +44,81 @@
 26    </queries>
 27
 28    <application
-28-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:9:5-36:19
+28-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:9:5-36:19
 29        android:name="com.venues.MainApplication"
-29-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:10:9-40
+29-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:10:9-40
 30        android:allowBackup="false"
-30-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:11:9-36
+30-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:11:9-36
 31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 31-->[androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/353889e5b50b4f5672763eeec679ff46/core-1.6.0/AndroidManifest.xml:24:18-86
 32        android:debuggable="true"
 33        android:hardwareAccelerated="true"
-33-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:14:9-43
+33-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:14:9-43
 34        android:icon="@mipmap/ic_launcher"
-34-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:12:9-43
+34-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:12:9-43
 35        android:label="@string/app_name"
-35-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:13:9-41
+35-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:13:9-41
 36        android:roundIcon="@mipmap/ic_launcher_round"
-36-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:15:9-54
+36-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:15:9-54
 37        android:theme="@style/AppTheme"
-37-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:16:9-40
+37-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:16:9-40
 38        android:usesCleartextTraffic="true" >
-38-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/debug/AndroidManifest.xml:7:18-53
+38-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/debug/AndroidManifest.xml:7:18-53
 39        <activity
-39-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:17:9-28:20
+39-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:17:9-28:20
 40            android:name="com.venues.MainActivity"
-40-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:18:13-41
+40-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:18:13-41
 41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-41-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:19:13-90
+41-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:19:13-90
 42            android:exported="true"
-42-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:20:13-36
+42-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:20:13-36
 43            android:label="@string/app_name"
-43-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:21:13-45
+43-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:21:13-45
 44            android:launchMode="singleTask"
-44-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:22:13-44
+44-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:22:13-44
 45            android:windowSoftInputMode="adjustResize" >
-45-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:23:13-55
+45-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:23:13-55
 46            <intent-filter>
-46-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:24:13-27:29
+46-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:24:13-27:29
 47                <action android:name="android.intent.action.MAIN" />
-47-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:25:17-69
-47-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:25:25-66
+47-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:25:17-69
+47-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:25:25-66
 48
 49                <category android:name="android.intent.category.LAUNCHER" />
-49-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:26:17-77
-49-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:26:27-74
+49-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:26:17-77
+49-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:26:27-74
 50            </intent-filter>
 51        </activity>
 52        <activity
-52-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:29:9-31:39
+52-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:29:9-31:39
 53            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-53-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:30:13-77
+53-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:30:13-77
 54            android:exported="true" />
-54-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:31:13-36
+54-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:31:13-36
 55
 56        <meta-data
-56-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:33:9-35:71
+56-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:33:9-35:71
 57            android:name="com.google.android.geo.API_KEY"
-57-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:34:13-58
+57-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:34:13-58
 58            android:value="AIzaSyCzOYPqvKZQIM6avhzLB6acxjMJxSpblKA" />
-58-->/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/src/main/AndroidManifest.xml:35:13-68
+58-->/Users/apple/Desktop/UsmanData/Venues/android/app/src/main/AndroidManifest.xml:35:13-68
 59
 60        <provider
-60-->[:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+60-->[:react-native-webview] /Users/apple/Desktop/UsmanData/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
 61            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-61-->[:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+61-->[:react-native-webview] /Users/apple/Desktop/UsmanData/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
 62            android:authorities="com.venues.fileprovider"
-62-->[:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+62-->[:react-native-webview] /Users/apple/Desktop/UsmanData/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
 63            android:exported="false"
-63-->[:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+63-->[:react-native-webview] /Users/apple/Desktop/UsmanData/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
 64            android:grantUriPermissions="true" >
-64-->[:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+64-->[:react-native-webview] /Users/apple/Desktop/UsmanData/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
 65            <meta-data
-65-->[:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+65-->[:react-native-webview] /Users/apple/Desktop/UsmanData/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
 66                android:name="android.support.FILE_PROVIDER_PATHS"
-66-->[:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+66-->[:react-native-webview] /Users/apple/Desktop/UsmanData/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
 67                android:resource="@xml/file_provider_paths" />
-67-->[:react-native-webview] /Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+67-->[:react-native-webview] /Users/apple/Desktop/UsmanData/Venues/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
 68        </provider> <!-- Needs to be explicitly declared on P+ -->
 69        <uses-library
 69-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/451d5e7ee488bf0cb8f0458f15e7be38/play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Desktop/UsmanOfficeData/ReactPractise/Venues/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
+            "outputFile": "/Users/apple/Desktop/UsmanData/Venues/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d102ee71fae3b2cd451eca7e47291d44/jetified-play-services-basement-18.1.0/res/values-el/values.xml",

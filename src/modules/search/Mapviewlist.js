@@ -1,14 +1,19 @@
 import React, { Component } from "react";
-import { View, TouchableOpacity, Image, Text, Linking, ActivityIndicator } from "react-native";
+import {
+  View,
+  TouchableOpacity,
+  Image,
+  Text,
+  ActivityIndicator,
+} from "react-native";
 
 import * as Actions from "../../store/actions/allActions";
 import * as Helpers from "../../helpers/Exporter";
 import { WP as wp } from "../../helpers/Exporter";
 import { connect } from "react-redux";
-import RNPickerSelect from "react-native-picker-select";
 import { styles } from "./Mapviewlist.style";
 import MapView from "react-native-map-clustering";
-import { Marker, Callout } from "react-native-maps";
+import { Marker } from "react-native-maps";
 import { FlatList } from "react-native-gesture-handler";
 
 class Mapviewlist extends Component {
@@ -25,11 +30,67 @@ class Mapviewlist extends Component {
       showBottom: false,
       currentItem: null,
       count: 0,
+      currentPage: 0,
+      totalPages: 0,
+      updatedVenues: [],
     };
   }
   componentDidMount() {
     this.fetchVenues();
   }
+  loadMore = () => {
+    const { currentPage, totalPages } = this.state;
+
+    if (currentPage < totalPages) {
+      const nextPage = currentPage + 1;
+      this.setState({ currentPage: nextPage }, () => {
+        this.fetchmoreVenues(nextPage);
+      });
+    } else {
+      console.log("checkPages", this.state.currentPage);
+      console.log("checkTPages", this.state.totalPages);
+    }
+  };
+  onRefresh = () => {
+    const { currentPage, totalPages } = this.state;
+
+    if (currentPage < totalPages) {
+      const nextPage = currentPage + 1;
+      this.setState({ currentPage: nextPage }, () => {
+        this.fetchmoreVenues(nextPage);
+      });
+    }
+  };
+  fetchmoreVenues = (page) => {
+    const apiUrl = `https://staging.letswork.io/api/branch/newlisting/?p=${page}`;
+    fetch(apiUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        // Process the response data
+        console.log("fetchmore", data);
+        this.props.updateVenues(data);
+        this.props.updateVenuesRes(data);
+        this.setState({ count: data.total_count });
+        this.setState({ currentPage: data.current_page });
+        this.setState({ totalPages: data.total_pages });
+        this.setState({
+          updatedVenues: [...this.props.venueLists.results],
+        });
+        const loadmoreupdatedVenues = [
+          ...this.props.venueLists.results,
+          ...data.results,
+        ];
+
+        var maplistx = loadmoreupdatedVenues.filter(
+          (item) => item.lat != null && item.lat != ""
+        );
+        this.setState({ maplist: maplistx });
+      })
+      .catch((error) => {
+        // Handle any errors
+        console.error(error);
+      });
+  };
   fetchVenues = () => {
     fetch("https://cx6bmbl1e3.execute-api.us-east-2.amazonaws.com/venues")
       .then((response) => response.json())
@@ -39,6 +100,9 @@ class Mapviewlist extends Component {
         this.props.updateVenues(data);
         this.props.updateVenuesRes(data);
         this.setState({ count: data.total_count });
+        this.setState({ currentPage: data.current_page });
+        this.setState({ totalPages: data.total_pages });
+        this.setState({ updatedVenues: [data.results] });
         var maplistx = data.results.filter(
           (item) => item.lat != null && item.lat != ""
         );
@@ -49,46 +113,18 @@ class Mapviewlist extends Component {
         console.error(error);
       });
   };
-  goback = () => {
-    this.props.navigation.goBack();
-  };
 
   markerPressed = (item) => {
     this.setState({ currentItem: item, showBottom: true });
   };
-  openExternalApp = (which, val) => {
-    switch (which) {
-      case "whatsapp":
-        Linking.openURL(`whatsapp://send?phone=${val}`);
-        return;
-      case "phone":
-        Linking.openURL(`tel:${val}`);
-        return;
-      default:
-        return;
-    }
-  };
 
-  navigate = (where, id) => {
-    switch (where) {
-      case "filter":
-        this.props.navigation.navigate(where);
-        return;
-      case "listingdetail":
-        this.props.navigation.navigate(where, { listingId: id });
-        return;
-      case "mapviewlist":
-        this.props.navigation.navigate(where);
-        return;
-    }
-  };
   renderItem = ({ item, index }) => {
     // List item component code
     return (
       <View
         style={{
           height: wp(44),
-          width: wp("100"),
+          width: wp("95"),
           alignSelf: "center",
           borderWidth: 1,
           borderColor: Helpers.Theme.blueBtnBorder,
@@ -96,7 +132,7 @@ class Mapviewlist extends Component {
           backgroundColor: Helpers.Theme.light,
           flexDirection: "row",
           margin: wp(2),
-          padding: wp(2),
+          paddingLeft: wp(2),
         }}
       >
         <TouchableOpacity
@@ -104,6 +140,7 @@ class Mapviewlist extends Component {
           style={{
             height: wp(40),
             width: "40%",
+            marginTop: wp("2"),
             borderTopLeftRadius: wp(1.3),
             borderBottomLeftRadius: wp(1.3),
           }}
@@ -239,231 +276,234 @@ class Mapviewlist extends Component {
   };
 
   render() {
-    const { data } = this.props;
-    console.log("checkprops", this.props);
-
     return (
       <View style={Helpers.GLOBAL_SHEET.maxHWCC}>
-        {
-            this.props.loading ? <ActivityIndicator color={"blue"} size={'small'}/> :
-            <>
-             {/* MapStart */}
-        <MapView
-          onPress={() => this.setState({ showBottom: false })}
-          initialRegion={
-            this.state.maplist.length > 0
-              ? {
-                  latitude: parseFloat(this.state.maplist[0].lat),
-                  longitude: parseFloat(this.state.maplist[0].lon),
-                  latitudeDelta: 0.0922,
-                  longitudeDelta: 0.0421,
-                }
-              : this.state.defaultRegion
-          }
-          style={[Helpers.GLOBAL_SHEET.maxHW, { height: Helpers.HP("70%") }]}
-        >
-          {this.state.maplist.length > 0
-            ? [
-                this.props.venueLists.results.map((item) => {
-                  return (
-                    <Marker
-                      key={item.id}
-                      coordinate={{
-                        latitude: parseFloat(item.lat),
-                        longitude: parseFloat(item.lon),
-                      }}
-                      onPress={() => this.markerPressed(item)}
+        {this.props.loading ? (
+          <ActivityIndicator color={"blue"} size={"small"} />
+        ) : (
+          <>
+            {/* MapStart */}
+            <MapView
+              onPress={() => this.setState({ showBottom: false })}
+              initialRegion={
+                this.state.maplist.length > 0
+                  ? {
+                      latitude: parseFloat(this.state.maplist[0].lat),
+                      longitude: parseFloat(this.state.maplist[0].lon),
+                      latitudeDelta: 0.0922,
+                      longitudeDelta: 0.0421,
+                    }
+                  : this.state.defaultRegion
+              }
+              style={[
+                Helpers.GLOBAL_SHEET.maxHW,
+                { height: Helpers.HP("70%") },
+              ]}
+            >
+              {this.state.maplist.length > 0
+                ? [
+                    this.props.venueLists.results.map((item) => {
+                      return (
+                        <Marker
+                          key={item.id}
+                          coordinate={{
+                            latitude: parseFloat(item.lat),
+                            longitude: parseFloat(item.lon),
+                          }}
+                          onPress={() => this.markerPressed(item)}
+                        >
+                          <Image
+                            source={Helpers.Images.customMarker}
+                            style={{
+                              height: Helpers.WP(12),
+                              width: Helpers.WP(12),
+                            }}
+                          />
+                        </Marker>
+                      );
+                    }),
+                  ]
+                : []}
+            </MapView>
+            {/* map End */}
+            <View style={{ width: wp("100"), margin: wp("1") }}>
+              {/*Venue count Start  */}
+              <Text>
+                {"Count"}:{this.state.count}
+              </Text>
+              {/* Venue count Ends */}
+            </View>
+            {/* Flat list to load Venues */}
+            {this.state.maplist.length > 0 ? (
+              <FlatList
+                data={this.props.venueLists.results}
+                keyExtractor={(item) => item.id}
+                key={(item) => item.id}
+                horizontal={true}
+                pagingEnabled={true}
+                onEndReached={()=>this.loadMore()}
+                onRefresh={()=>this.onRefresh()}
+                renderItem={this.renderItem}
+              />
+            ) : (
+              <></>
+            )}
+            {this.state.showBottom
+              ? [
+                  <View style={styles.listBtn}>
+                    <TouchableOpacity
+                      onPress={() =>
+                        console.log("listingdetail", this.state.currentItem.id)
+                      }
+                      style={styles.listBtn_leftVw}
                     >
                       <Image
-                        source={Helpers.Images.customMarker}
-                        style={{
-                          height: Helpers.WP(12),
-                          width: Helpers.WP(12),
-                        }}
+                        source={{ uri: this.state.currentItem.thumbnail }}
+                        style={Helpers.GLOBAL_SHEET.maxHW}
                       />
-                    </Marker>
-                  );
-                }),
-              ]
-            : []}
-        </MapView>
-        {/* map End */}
-        <View style={{ width: wp("100"), margin: wp("1") }}>
-          {/*Venue count Start  */}
-          <Text>
-            {"Count"}:{this.state.count}
-          </Text>
-          {/* Venue count Ends */}
-        </View>
-        {/* Flat list to load Venues */}
-        {this.state.maplist.length > 0 ? (
-          <FlatList
-            data={this.props.venueLists.results}
-            keyExtractor={(item) => item.id}
-            horizontal={true}
-            pagingEnabled={true}
-            renderItem={this.renderItem}
-          />
-        ) : (
-          <></>
-        )}
-        {this.state.showBottom
-          ? [
-              <View style={styles.listBtn}>
-                <TouchableOpacity
-                  onPress={() =>
-                    console.log("listingdetail", this.state.currentItem.id)
-                  }
-                  style={styles.listBtn_leftVw}
-                >
-                  <Image
-                    source={{ uri: this.state.currentItem.thumbnail }}
-                    style={Helpers.GLOBAL_SHEET.maxHW}
-                  />
 
-                  {this.state.currentItem.is_premium == "1"
-                    ? [
+                      {this.state.currentItem.is_premium == "1"
+                        ? [
+                            <Image
+                              source={Helpers.Images.featuredBadge}
+                              style={styles.listBtn_leftVw_featureImg}
+                            />,
+                          ]
+                        : []}
+                    </TouchableOpacity>
+
+                    <View style={styles.listBtn_rightVw}>
+                      <TouchableOpacity style={styles.listBtn_rightVw_heartBtn}>
                         <Image
-                          source={Helpers.Images.featuredBadge}
-                          style={styles.listBtn_leftVw_featureImg}
-                        />,
-                      ]
-                    : []}
-                </TouchableOpacity>
+                          source={
+                            this.state.currentItem.is_favorite
+                              ? Helpers.Images.heartfilled
+                              : Helpers.Images.heartEmpty
+                          }
+                          style={[
+                            styles.listBtn_rightVw_heartBtn_Img,
+                            this.state.currentItem.isfav
+                              ? { tintColor: Helpers.Theme.red }
+                              : {},
+                          ]}
+                        />
+                      </TouchableOpacity>
 
-                <View style={styles.listBtn_rightVw}>
-                  <TouchableOpacity style={styles.listBtn_rightVw_heartBtn}>
-                    <Image
-                      source={
-                        this.state.currentItem.is_favorite
-                          ? Helpers.Images.heartfilled
-                          : Helpers.Images.heartEmpty
-                      }
-                      style={[
-                        styles.listBtn_rightVw_heartBtn_Img,
-                        this.state.currentItem.isfav
-                          ? { tintColor: Helpers.Theme.red }
-                          : {},
-                      ]}
-                    />
-                  </TouchableOpacity>
+                      <Text style={[Helpers.Typography.four, { color: "red" }]}>
+                        {this.state.currentItem.main_price}
+                        <Text
+                          style={[
+                            Helpers.Typography.three,
+                            { color: Helpers.Theme.black },
+                          ]}
+                        >
+                          {this.state.currentItem.is_branch_open}
+                        </Text>
+                      </Text>
+                      <Text
+                        style={[
+                          Helpers.Typography.four,
+                          styles.listBtn_rightVw_titleTxt,
+                        ]}
+                      >
+                        {this.state.currentItem.name}
+                      </Text>
+                      {this.state.currentItem.address != null
+                        ? [
+                            <View style={styles.listBtn_rightVw_addressVw}>
+                              <Image
+                                source={Helpers.Images.pinpoint}
+                                style={{
+                                  height: wp(2.5),
+                                  width: wp(2.5),
+                                  tintColor: "red",
+                                  resizeMode: "contain",
+                                }}
+                              />
+                              <Text
+                                style={[
+                                  Helpers.Typography.three,
+                                  {
+                                    color: Helpers.Theme.darkgrey,
+                                    width: wp(45),
+                                    marginLeft: wp(1),
+                                  },
+                                ]}
+                              >
+                                {this.state.currentItem.address}
+                              </Text>
+                            </View>,
+                          ]
+                        : []}
 
-                  <Text style={[Helpers.Typography.four, { color: "red" }]}>
-                    {this.state.currentItem.main_price}
-                    <Text
-                      style={[
-                        Helpers.Typography.three,
-                        { color: Helpers.Theme.black },
-                      ]}
-                    >
-                      {this.state.currentItem.is_branch_open}
-                    </Text>
-                  </Text>
-                  <Text
-                    style={[
-                      Helpers.Typography.four,
-                      styles.listBtn_rightVw_titleTxt,
-                    ]}
-                  >
-                    {this.state.currentItem.name}
-                  </Text>
-                  {this.state.currentItem.address != null
-                    ? [
-                        <View style={styles.listBtn_rightVw_addressVw}>
+                      <View style={styles.listBtn_rightVw_bedbathVw}>
+                        <View style={{ flexDirection: "row" }}>
                           <Image
-                            source={Helpers.Images.pinpoint}
-                            style={{
-                              height: wp(2.5),
-                              width: wp(2.5),
-                              tintColor: "red",
-                              resizeMode: "contain",
-                            }}
+                            source={Helpers.Images.tag}
+                            style={[
+                              styles.listBtn_rightVw_bedbathVw_Img,
+                              { tintColor: "red" },
+                            ]}
                           />
                           <Text
                             style={[
                               Helpers.Typography.three,
-                              {
-                                color: Helpers.Theme.darkgrey,
-                                width: wp(45),
-                                marginLeft: wp(1),
-                              },
+                              { color: Helpers.Theme.darkgrey },
                             ]}
                           >
-                            {this.state.currentItem.address}
+                            {this.state.currentItem.total_capacity}
                           </Text>
-                        </View>,
-                      ]
-                    : []}
+                        </View>
+                        <View style={styles.listBtn_rightVw_bedbathVw_twoVws}>
+                          <Image
+                            source={Helpers.Images.tick}
+                            style={[
+                              styles.listBtn_rightVw_bedbathVw_Img,
+                              { tintColor: "red" },
+                            ]}
+                          />
+                          <Text
+                            style={[
+                              Helpers.Typography.three,
+                              styles.listBtn_rightVw_bedbathVw_bedsTxt,
+                            ]}
+                          >
+                            {this.state.currentItem.spotLeft}
+                          </Text>
+                        </View>
+                        <View style={styles.listBtn_rightVw_bedbathVw_twoVws}>
+                          <Image
+                            source={Helpers.Images.clock}
+                            style={[
+                              styles.listBtn_rightVw_bedbathVw_Img,
+                              { tintColor: "red" },
+                            ]}
+                          />
 
-                  <View style={styles.listBtn_rightVw_bedbathVw}>
-                    <View style={{ flexDirection: "row" }}>
-                      <Image
-                        source={Helpers.Images.tag}
-                        style={[
-                          styles.listBtn_rightVw_bedbathVw_Img,
-                          { tintColor: "red" },
-                        ]}
-                      />
-                      <Text
-                        style={[
-                          Helpers.Typography.three,
-                          { color: Helpers.Theme.darkgrey },
-                        ]}
-                      >
-                        {this.state.currentItem.total_capacity}
-                      </Text>
+                          <Text
+                            style={[
+                              Helpers.Typography.three,
+                              styles.listBtn_rightVw_bedbathVw_bedsTxt,
+                            ]}
+                          >
+                            {this.state.currentItem.timings}
+                          </Text>
+                        </View>
+                      </View>
                     </View>
-                    <View style={styles.listBtn_rightVw_bedbathVw_twoVws}>
-                      <Image
-                        source={Helpers.Images.tick}
-                        style={[
-                          styles.listBtn_rightVw_bedbathVw_Img,
-                          { tintColor: "red" },
-                        ]}
-                      />
-                      <Text
-                        style={[
-                          Helpers.Typography.three,
-                          styles.listBtn_rightVw_bedbathVw_bedsTxt,
-                        ]}
-                      >
-                        {this.state.currentItem.spotLeft}
-                      </Text>
-                    </View>
-                    <View style={styles.listBtn_rightVw_bedbathVw_twoVws}>
-                      <Image
-                        source={Helpers.Images.clock}
-                        style={[
-                          styles.listBtn_rightVw_bedbathVw_Img,
-                          { tintColor: "red" },
-                        ]}
-                      />
-
-                      <Text
-                        style={[
-                          Helpers.Typography.three,
-                          styles.listBtn_rightVw_bedbathVw_bedsTxt,
-                        ]}
-                      >
-                        {this.state.currentItem.timings}
-                      </Text>
-                    </View>
-                  </View>
-                </View>
-              </View>,
-            ]
-          : []}
-            </>
-       }
-       
+                  </View>,
+                ]
+              : []}
+          </>
+        )}
       </View>
     );
   }
 }
 const mapStateToProps = (state) => {
-    console.log("state",state)
+  console.log("state", state);
   return {
-    loading:state.search.loading,
+    loading: state.search.loading,
     venueLists: state.search.venues,
   };
 };
