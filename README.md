@@ -37,12 +37,12 @@ npm react-native run-ios
 
 5. Explore the Venues App by interacting with the map and the list of venues.
 
-## Screenshots
+## Videos
 
 _Map View showing clustered markers_
 
 _Venue List displaying relevant information_
-
+https://www.youtube.com/shorts/PSUKQq01k3w
 ## Contributing
 
 Contributions to the Venues App are welcome! If you encounter any issues or have suggestions for improvement, please feel free to submit a pull request or open an issue on the GitHub repository.
