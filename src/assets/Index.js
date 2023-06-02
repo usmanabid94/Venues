@@ -1,5 +1,6 @@
 export const Images = {
 
+    splashLogo:require('./images/splashlogo.png'),
     splashBottom:require('./images/splashbottom.png'),
 
 
@@ -25,6 +26,17 @@ export const Images = {
     tick:require('./images/tick.png'),
 
     propertyaLogo:require('./images/propertya_logo.png'),
+
+    bookingLogo:require('./images/booktab.png'),
+    mapLogo:require('./images/maptab.png'),
+    chatLogo:require('./images/chattab.png'),
+    profileLogo:require('./images/profiletab.png'),
+    filter:require('./images/filter.png'),
+        
+    appleLogo:require('./images/applelogo.png'),
+    facebookLogo:require('./images/facebook.png'),
+    googleLogo:require('./images/google.png'),
+    
     list:require('./images/list.png'),
 
     heartfilled:require('./images/heart_filled.png'),
@@ -42,7 +54,8 @@ export const Images = {
     whatsapp:require('./images/whatsapp.png'),
     phonecall:require('./images/phonecall.png'),
     map:require('./images/map.png'),
-
+    agent:require('./images/profile.png'),
+    
     customMarker:require('./images/custommarker.png'),
     share:require('./images/shares.png'),
     shadow:require('./images/shadow.png'),
@@ -75,6 +88,7 @@ export const Images = {
 
     person:require('./images/person.jpeg'),
     mail:require('./images/mail.png'),
+    yelp:require('./images/yelpicon.png'),
 
     filetypedoc:require('./images/filetypedoc.png'),
     filetypepdf:require('./images/filetypepdf.png'),
