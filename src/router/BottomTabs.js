@@ -38,7 +38,7 @@ class BottomTabs extends Component {
 render() {
     return (
         <Tab.Navigator
-            tabBarOptions={{ style:{height:Platform.OS == "ios"?Helpers.WP('14')  :Helpers.WP('19'),borderTopEndRadius: Helpers.WP(5),borderTopStartRadius: Helpers.WP(5)}, showLabel:false}}//,showLabel:false style: styles.tabBar,
+            tabBarOptions={{ style:{height:Platform.OS == "ios"?Helpers.WP('14')  :Helpers.WP('19'),borderTopEndRadius: Helpers.WP(8),borderTopStartRadius: Helpers.WP(8)}, showLabel:false}}//,showLabel:false style: styles.tabBar,
             screenOptions={({ route }) => (
                 console.log(route),
                
@@ -90,7 +90,7 @@ render() {
                 tabBarIcon: ({ focused, color, size }) => (
                     <View style={{ alignItems: 'center', justifyContent: 'center'}}>
                          <Image 
-                    source={Helpers.Images.heartfilled}
+                    source={Helpers.Images.homeLogo}
                     style={{height:(21),width:(21),tintColor:focused?'#3078ff' :"#6b7280"}}
                     />
                         <Text style={[focused ? [styles.focusedTabText,{color:"#3078ff",top:Helpers.WP(1)}] : [styles.unfocusedTabText,{top:Helpers.WP(1)}]]}>Home</Text>
@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
     focusedTabText: {
         fontSize: 12,
         color: Helpers.Theme.primary,
-        fontFamily:'BrandonText-Regular'
+        fontFamily:'BrandonText-Bold'
         // bottom:Helpers.WP('1'),
         // padding:Helpers.WP('2')
     },

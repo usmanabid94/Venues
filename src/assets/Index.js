@@ -25,7 +25,7 @@ export const Images = {
     park:require('./images/park.png'),
     tick:require('./images/tick.png'),
 
-    propertyaLogo:require('./images/propertya_logo.png'),
+    letsworkLogo:require('./images/letswork_logo.png'),
 
     bookingLogo:require('./images/booktab.png'),
     mapLogo:require('./images/maptab.png'),
@@ -36,7 +36,8 @@ export const Images = {
     appleLogo:require('./images/applelogo.png'),
     facebookLogo:require('./images/facebook.png'),
     googleLogo:require('./images/google.png'),
-    
+    mailLogo:require('./images/mailLogo.png'),
+    homeLogo:require('./images/homelogo.png'),
     list:require('./images/list.png'),
 
     heartfilled:require('./images/heart_filled.png'),

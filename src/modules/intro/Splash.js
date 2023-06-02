@@ -35,7 +35,7 @@ class Splash extends Component {
 
 
                 <Image
-                    source={Helpers.Images.propertyaLogo}
+                    source={Helpers.Images.letsworkLogo}
                     style={{ height: wp(40), width: wp(40), resizeMode: 'contain' }}
                 />
 

@@ -8,6 +8,7 @@ import {
   TextInput,
   Modal,
   ScrollView,
+  Dimensions,
 } from "react-native";
 
 import * as Actions from "../../store/actions/allActions";
@@ -17,12 +18,11 @@ import { connect } from "react-redux";
 // import { styles } from "./Mapviewlist.style";
 import MapView from "react-native-map-clustering";
 import { Marker } from "react-native-maps";
-import { FlatList } from "react-native-gesture-handler";
 import { styles } from "./Searchlist.style";
 import ToggleButton from "./ToggleButton";
 import LoginComponent from "../Login/LoginComponent";
 // Import the font file
-import AsapBold from '../../assets/fonts/Asap-Bold.ttf';
+import Carousel from "react-native-snap-carousel";
 class Mapviewlist extends Component {
   constructor(props) {
     super(props);
@@ -147,22 +147,24 @@ class Mapviewlist extends Component {
     return (
       <View
         style={{
-          height: wp("50"),
-          width: wp("65"),
+          height: wp("60"),
+          width: "100%",
           alignSelf: "center",
-          borderWidth: 1,
-          borderColor: Helpers.Theme.blueBtnBorder,
-          borderRadius: wp(5),
           backgroundColor: Helpers.Theme.light,
           margin: wp(2),
-          // paddingLeft: wp(2),
+          backgroundColor: "#FFFFFF",
+          borderRadius: wp("5"),
+          shadowColor: "#000000",
+          shadowOpacity: 0.1,
+          shadowRadius: 4,
+          elevation: 4,
         }}
       >
-        <View style={{ width: wp("65"), height: wp("25") }}>
+        <View style={{ width: "100%", height: wp("30") }}>
           <Image
             source={{ uri: item.thumbnail }}
             style={{
-              width: wp("65"),
+              width: "100%",
               height: wp("10"),
               flex: 1,
               borderWidth: 1,
@@ -187,38 +189,77 @@ class Mapviewlist extends Component {
             />
           </TouchableOpacity>
         </View>
-        <View style={{ flex: 1, padding: wp("3"), justifyContent: "center" }}>
+        <View style={{ padding: wp("3"), justifyContent: "center" }}>
           <View
-            style={{ flexDirection: "row", justifyContent: "space-between" }}
+            style={{
+              flexDirection: "row",
+              justifyContent: "space-between",
+              alignItems: "center",
+              bottom: wp("1"),
+            }}
           >
-            <Text style={{ color: Helpers.Theme.darkgrey, fontWeight: "bold" }}>
+            <Text
+              style={{
+                width: wp("40"),
+                color: "#242424",
+                fontSize: wp("4.5"),
+                fontWeight: "BrandonText-Bold",
+                fontFamily: "BrandonText-Bold",
+              }}
+              numberOfLines={1}
+              ellipsizeMode="tail"
+            >
               {item.name}
             </Text>
-            <Text style={{ color: "green", fontWeight: "bold" }}>
+            <Text
+              style={{
+                color: "green",
+                fontWeight: "bold",
+                fontSize: wp("3.4"),
+              }}
+            >
               {item.is_branch_open}
             </Text>
           </View>
           <View>
-            <Text style={{ color: Helpers.Theme.gryBack, fontWeight: "bold" }}>
+            <Text
+              style={{
+                color: "#999999",
+                fontWeight: "bold",
+                fontSize: wp("3"),
+                marginBottom: wp("8"),
+              }}
+              numberOfLines={1}
+              ellipsizeMode="tail"
+            >
               {item.address}
             </Text>
           </View>
+
           <View
             style={{ flexDirection: "row", justifyContent: "space-between" }}
           >
-            <Text style={{ color: Helpers.Theme.black, fontWeight: "bold" }}>
+            <Text
+              style={{
+                color: Helpers.Theme.black,
+                fontWeight: "BrandonText-Bold",
+                fontFamily: "BrandonText-Bold",
+              }}
+            >
               {item.branch_cost} ({item.credits_required} credits)
             </Text>
+
             <Text
               style={{
                 color: Helpers.Theme.light,
                 borderRadius: wp("5"),
-                paddingTop: wp("1"),
-                paddingBottom: wp("1"),
-                paddingLeft: wp("2"),
-                paddingRight: wp("2"),
                 backgroundColor: "#3078ff",
                 fontWeight: "bold",
+                fontSize: wp("3"),
+                paddingTop: wp("1"),
+                paddingBottom: wp("1"),
+                paddingRight: wp("5"),
+                paddingLeft: wp("5"),
               }}
               onPress={this.toggleModal}
             >
@@ -227,157 +268,6 @@ class Mapviewlist extends Component {
           </View>
         </View>
       </View>
-      // <View
-      //   style={{
-      //     height: wp(44),
-      //     width: wp("95"),
-      //     alignSelf: "center",
-      //     borderWidth: 1,
-      //     borderColor: Helpers.Theme.blueBtnBorder,
-      //     borderRadius: wp(1.3),
-      //     backgroundColor: Helpers.Theme.light,
-      //     flexDirection: "row",
-      //     margin: wp(2),
-      //     paddingLeft: wp(2),
-      //   }}
-      // >
-      //   <TouchableOpacity
-      //     onPress={() => console.log("listingdetail", item.id)}
-      //     style={{
-      //       height: wp(40),
-      //       width: "40%",
-      //       marginTop: wp("2"),
-      //       borderTopLeftRadius: wp(1.3),
-      //       borderBottomLeftRadius: wp(1.3),
-      //     }}
-      //   >
-      //     <Image
-      //       source={{ uri: item.thumbnail }}
-      //       style={Helpers.GLOBAL_SHEET.maxHW}
-      //     />
-
-      //     {item.is_premium == "1"
-      //       ? [
-      //           <Image
-      //             source={Helpers.Images.featuredBadge}
-      //             style={styles.listBtn_leftVw_featureImg}
-      //           />,
-      //         ]
-      //       : []}
-      //   </TouchableOpacity>
-
-      //   <View style={styles.listBtn_rightVw}>
-      //     <TouchableOpacity style={styles.listBtn_rightVw_heartBtn}>
-      //       <Image
-      //         source={
-      //           item.is_favorite
-      //             ? Helpers.Images.heartfilled
-      //             : Helpers.Images.heartEmpty
-      //         }
-      //         style={[
-      //           styles.listBtn_rightVw_heartBtn_Img,
-      //           item.isfav ? { tintColor: Helpers.Theme.red } : {},
-      //         ]}
-      //       />
-      //     </TouchableOpacity>
-
-      //     <Text style={[Helpers.Typography.four, { color: "#3078ff" }]}>
-      //       {item.main_price}
-      //       <Text
-      //         style={[Helpers.Typography.three, { color: Helpers.Theme.black }]}
-      //       >
-      //         {item.is_branch_open}
-      //       </Text>
-      //     </Text>
-      //     <Text
-      //       style={[Helpers.Typography.four, styles.listBtn_rightVw_titleTxt]}
-      //     >
-      //       {item.name}
-      //     </Text>
-      //     {item.address != null
-      //       ? [
-      //           <View style={styles.listBtn_rightVw_addressVw}>
-      //             <Image
-      //               source={Helpers.Images.pinpoint}
-      //               style={{
-      //                 height: wp(2.5),
-      //                 width: wp(2.5),
-      //                 tintColor: "#3078ff",
-      //                 resizeMode: "contain",
-      //               }}
-      //             />
-      //             <Text
-      //               style={[
-      //                 Helpers.Typography.three,
-      //                 {
-      //                   color: Helpers.Theme.darkgrey,
-      //                   width: wp(45),
-      //                   marginLeft: wp(1),
-      //                 },
-      //               ]}
-      //             >
-      //               {item.address}
-      //             </Text>
-      //           </View>,
-      //         ]
-      //       : []}
-
-      //     <View style={styles.listBtn_rightVw_bedbathVw}>
-      //       <View style={{ flexDirection: "row" }}>
-      //         <Image
-      //           source={Helpers.Images.tag}
-      //           style={[
-      //             styles.listBtn_rightVw_bedbathVw_Img,
-      //             { tintColor: "#3078ff" },
-      //           ]}
-      //         />
-      //         <Text
-      //           style={[
-      //             Helpers.Typography.three,
-      //             { color: Helpers.Theme.darkgrey },
-      //           ]}
-      //         >
-      //           {item.total_capacity}
-      //         </Text>
-      //       </View>
-      //       <View style={styles.listBtn_rightVw_bedbathVw_twoVws}>
-      //         <Image
-      //           source={Helpers.Images.tick}
-      //           style={[
-      //             styles.listBtn_rightVw_bedbathVw_Img,
-      //             { tintColor: "#3078ff" },
-      //           ]}
-      //         />
-      //         <Text
-      //           style={[
-      //             Helpers.Typography.three,
-      //             styles.listBtn_rightVw_bedbathVw_bedsTxt,
-      //           ]}
-      //         >
-      //           {item.spotLeft}
-      //         </Text>
-      //       </View>
-      //       <View style={styles.listBtn_rightVw_bedbathVw_twoVws}>
-      //         <Image
-      //           source={Helpers.Images.clock}
-      //           style={[
-      //             styles.listBtn_rightVw_bedbathVw_Img,
-      //             { tintColor: "#3078ff" },
-      //           ]}
-      //         />
-
-      //         <Text
-      //           style={[
-      //             Helpers.Typography.three,
-      //             styles.listBtn_rightVw_bedbathVw_bedsTxt,
-      //           ]}
-      //         >
-      //           {item.timings}
-      //         </Text>
-      //       </View>
-      //     </View>
-      //   </View>
-      // </View>
     );
   };
   handleScrollToIndexFailed = () => {
@@ -400,14 +290,21 @@ class Mapviewlist extends Component {
     console.log("this.state.updatedVenues", this.state.updatedVenues);
     const { isModalVisible } = this.state;
 
+    const horizontalMargin = 1;
+    const slideWidth = 300;
+
+    const sliderWidth = Dimensions.get("window").width;
+    const itemWidth = slideWidth + horizontalMargin * 2;
     return (
       <View
         style={[
           Helpers.GLOBAL_SHEET.maxHWC,
           styles.container,
           {
-            elevation: 3,
-            shadowColor: "#e5e7eb", //'#d8d8d8',
+            shadowColor: "#000000",
+            shadowOpacity: 0.1,
+            shadowRadius: 4,
+            elevation: 4, //'#d8d8d8',
           },
         ]}
       >
@@ -420,9 +317,16 @@ class Mapviewlist extends Component {
               style={[
                 styles.mainHeader,
                 styles.boxWithShadow,
-                { padding: wp("2"), marginBottom: wp("4") },
-              ]}>
-
+                {
+                  padding: wp("2"),
+                  paddingBottom: wp("9"),
+                  shadowColor: "#000000",
+                  shadowOpacity: 0.1,
+                  shadowRadius: 4,
+                  elevation: 4,
+                },
+              ]}
+            >
               <View
                 style={[
                   styles.header,
@@ -446,9 +350,8 @@ class Mapviewlist extends Component {
                       styles.secondpartHeader_txtVw_first,
                       {
                         color: "#fff",
-                        fontFamily:
-                          "../../assets/fonts/Asap-Bold.ttf",
-                        fontWeight: "bold",
+                        fontFamily: "BrandonText-Regular",
+                        fontWeight: "BrandonText-Regular",
                         paddingTop: wp("2"),
                         paddingBottom: wp("2"),
                         paddingLeft: wp("4"),
@@ -495,11 +398,13 @@ class Mapviewlist extends Component {
                 style={{
                   backgroundColor: "white",
                   height: wp("10"),
-                  // margin: wp("2"),
                   flexDirection: "row",
                   alignItems: "center",
                   alignSelf: "flex-start",
                   paddingTop: wp("5"),
+                  display: "flex",
+                  justifyContent: "center",
+                  alignContent: "center",
                 }}
               >
                 <TouchableOpacity
@@ -531,11 +436,15 @@ class Mapviewlist extends Component {
                       Helpers.Typography.four,
                       styles.secondpartHeader_txtVw_first,
                       {
-                        height: wp("5"),
+                        height: wp("6"),
                         width: wp("50"),
+                        fontFamily: "BrandonText-Bold",
+                        fontWeight: "BrandonText-Bold",
                         color: "#6b7280",
-                        margin: wp("1"),
+                        margin: wp("0"),
                         padding: wp("0.5"),
+                        justifyContent: "center",
+                        alignContent: "center",
                       },
                     ]}
                     placeholder="Search Locations"
@@ -551,7 +460,6 @@ class Mapviewlist extends Component {
                     flexDirection: "row",
                     alignItems: "center",
                   }}
-                  onPress={this.toggleModal}
                 >
                   <Image
                     source={require("../../assets/images/pinpoint.png")}
@@ -567,6 +475,8 @@ class Mapviewlist extends Component {
                       styles.secondpartHeader_txtVw_first,
                       {
                         color: "#000",
+                        fontFamily: "BrandonText-Bold",
+                        fontWeight: "BrandonText-Bold",
                         fontSize: wp("4"),
                         margin: wp("1"),
                         padding: wp("0.5"),
@@ -593,7 +503,6 @@ class Mapviewlist extends Component {
             <View
               style={{
                 backgroundColor: "white",
-                // height: this.state.showBottom ? wp("150") : wp("150"),
                 width: wp("100"),
                 flex: 1,
               }}
@@ -612,11 +521,6 @@ class Mapviewlist extends Component {
                     : this.state.defaultRegion
                 }
                 style={{ height: "100%", width: "100%", position: "absolute" }}
-
-                // style={[
-                //   Helpers.GLOBAL_SHEET.maxHW,
-                //   { height: Helpers.HP("70%") },
-                // ]}
               >
                 {this.state.maplist.length > 0
                   ? [
@@ -644,156 +548,179 @@ class Mapviewlist extends Component {
                   : []}
               </MapView>
               {/* map End */}
-              <View style={{ width: wp("100"), margin: wp("1") }}>
-                {/*Venue count Start  */}
-                <Text>
-                  {"Count"}:{this.state.count}
-                </Text>
-                {/* Venue count Ends */}
-              </View>
               {this.state.showBottom
                 ? [
                     <View
                       style={{
-                        height: wp("50"),
-                        width: wp("65"),
-                        alignSelf: "center",
-                        borderWidth: 1,
-                        borderColor: Helpers.Theme.blueBtnBorder,
-                        borderRadius: wp(5),
-                        backgroundColor: Helpers.Theme.light,
-                        margin: wp(2),
+                        height: wp("60"),
+                        width: "100%",
+                        padding: wp("5"),
                         position: "absolute",
                         bottom: wp("5"),
-                        // paddingLeft: wp(2),
                       }}
                     >
-                      <View style={{ width: wp("65"), height: wp("25") }}>
-                        <Image
-                          source={{ uri: this.state.currentItem.thumbnail }}
-                          style={{
-                            width: wp("65"),
-                            height: wp("10"),
-                            flex: 1,
-                            borderWidth: 1,
-                            borderColor: Helpers.Theme.blueBtnBorder,
-                            borderTopRightRadius: wp(5),
-                            borderTopLeftRadius: wp(5),
-                          }}
-                        />
-                        <TouchableOpacity
-                          style={styles.listBtn_rightVw_heartBtn}
-                        >
-                          <Image
-                            source={
-                              this.state.currentItem.is_favorite
-                                ? Helpers.Images.heartfilled
-                                : Helpers.Images.heartEmpty
-                            }
-                            style={[
-                              styles.listBtn_rightVw_heartBtn_Img,
-                              this.state.currentItem.isfav
-                                ? { tintColor: Helpers.Theme.red }
-                                : { tintColor: "#fff" },
-                            ]}
-                          />
-                        </TouchableOpacity>
-                      </View>
                       <View
                         style={{
-                          flex: 1,
-                          padding: wp("3"),
-                          justifyContent: "center",
+                          height: wp("60"),
+                          width: "100%",
+                          alignSelf: "center",
+                          backgroundColor: Helpers.Theme.light,
+                          margin: wp(2),
+                          backgroundColor: "#FFFFFF",
+                          borderRadius: wp("5"),
+                          shadowColor: "#000000",
+                          shadowOpacity: 0.1,
+                          shadowRadius: 4,
+                          elevation: 4,
+                          position: "absolute",
+                          bottom: wp("5"),
                         }}
                       >
-                        <View
-                          style={{
-                            flexDirection: "row",
-                            justifyContent: "space-between",
-                          }}
-                        >
-                          <Text
+                        <View style={{ width: "100%", height: wp("30") }}>
+                          <Image
+                            source={{ uri: this.state.currentItem.thumbnail }}
                             style={{
-                              color: Helpers.Theme.darkgrey,
-                              fontWeight: "bold",
+                              width: "100%",
+                              height: wp("10"),
+                              flex: 1,
+                              borderWidth: 1,
+                              borderColor: Helpers.Theme.blueBtnBorder,
+                              borderTopRightRadius: wp(5),
+                              borderTopLeftRadius: wp(5),
                             }}
-                          >
-                            {this.state.currentItem.name}
-                          </Text>
-                          <Text style={{ color: "green", fontWeight: "bold" }}>
-                            {this.state.currentItem.is_branch_open}
-                          </Text>
-                        </View>
-                        <View>
-                          <Text
-                            style={{
-                              color: Helpers.Theme.gryBack,
-                              fontWeight: "bold",
-                            }}
-                          >
-                            {this.state.currentItem.address}
-                          </Text>
-                        </View>
-                        <View
-                          style={{
-                            flexDirection: "row",
-                            justifyContent: "space-between",
-                          }}
-                        >
-                          <Text
-                            style={{
-                              color: Helpers.Theme.black,
-                              fontWeight: "bold",
-                            }}
-                          >
-                            {this.state.currentItem.branch_cost} (
-                            {this.state.currentItem.credits_required} credits)
-                          </Text>
+                          />
                           <TouchableOpacity
-                          onPress={this.toggleModal}>
-                          <Text
-                            style={{
-                              color: Helpers.Theme.light,
-                              borderRadius: wp("5"),
-                              paddingTop: wp("1"),
-                              paddingBottom: wp("1"),
-                              paddingLeft: wp("2"),
-                              paddingRight: wp("2"),
-                              backgroundColor: "#3078ff",
-                              fontWeight: "bold",
-                            }}>
-                            Buy Credits
-                          </Text>
+                            style={styles.listBtn_rightVw_heartBtn}
+                          >
+                            <Image
+                              source={
+                                this.state.currentItem.is_favorite
+                                  ? Helpers.Images.heartfilled
+                                  : Helpers.Images.heartEmpty
+                              }
+                              style={[
+                                styles.listBtn_rightVw_heartBtn_Img,
+                                this.state.currentItem.isfav
+                                  ? { tintColor: Helpers.Theme.red }
+                                  : { tintColor: "#fff" },
+                              ]}
+                            />
                           </TouchableOpacity>
+                        </View>
+                        <View
+                          style={{ padding: wp("3"), justifyContent: "center" }}
+                        >
+                          <View
+                            style={{
+                              flexDirection: "row",
+                              justifyContent: "space-between",
+                              alignItems: "center",
+                              bottom: wp("1"),
+                            }}
+                          >
+                            <Text
+                              style={{
+                                width: wp("40"),
+                                color: "#242424",
+                                fontSize: wp("4.5"),
+                                fontWeight: "BrandonText-Bold",
+                                fontFamily: "BrandonText-Bold",
+                              }}
+                              numberOfLines={1}
+                              ellipsizeMode="tail"
+                            >
+                              {this.state.currentItem.name}
+                            </Text>
+                            <Text
+                              style={{
+                                color: "green",
+                                fontWeight: "bold",
+                                fontSize: wp("3.4"),
+                              }}
+                            >
+                              {this.state.currentItem.is_branch_open}
+                            </Text>
+                          </View>
+                          <View>
+                            <Text
+                              style={{
+                                color: "#999999",
+                                fontWeight: "bold",
+                                fontSize: wp("3"),
+                                marginBottom: wp("8"),
+                              }}
+                              numberOfLines={1}
+                              ellipsizeMode="tail"
+                            >
+                              {this.state.currentItem.address}
+                            </Text>
+                          </View>
+
+                          <View
+                            style={{
+                              flexDirection: "row",
+                              justifyContent: "space-between",
+                            }}
+                          >
+                            <Text
+                              style={{
+                                color: Helpers.Theme.black,
+                                fontWeight: "BrandonText-Bold",
+                                fontFamily: "BrandonText-Bold",
+                              }}
+                            >
+                              {this.state.currentItem.branch_cost} (
+                              {this.state.currentItem.credits_required} credits)
+                            </Text>
+
+                            <Text
+                              style={{
+                                color: Helpers.Theme.light,
+                                borderRadius: wp("5"),
+                                backgroundColor: "#3078ff",
+                                fontWeight: "bold",
+                                fontSize: wp("3"),
+                                paddingTop: wp("1"),
+                                paddingBottom: wp("1"),
+                                paddingRight: wp("5"),
+                                paddingLeft: wp("5"),
+                              }}
+                              onPress={this.toggleModal}
+                            >
+                              Buy Credits
+                            </Text>
+                          </View>
                         </View>
                       </View>
                     </View>,
-                    // <View style={styles.listBtn}>
-                    //   <TouchableOpacity
-                    //     onPress={() =>
-                    //       console.log(
-                    //         "listingdetail",
-                    //         this.state.currentItem.id
-                    //       )
-                    //     }
-                    //     style={styles.listBtn_leftVw}
-                    //   >
+                    // <View
+                    //   style={{
+                    //     height: wp("50"),
+                    //     width: wp("65"),
+                    //     alignSelf: "center",
+                    //     borderWidth: 1,
+                    //     borderColor: Helpers.Theme.blueBtnBorder,
+                    //     borderRadius: wp(5),
+                    //     backgroundColor: Helpers.Theme.light,
+                    //     margin: wp(2),
+                    //     position: "absolute",
+                    //     bottom: wp("5"),
+                    //     // paddingLeft: wp(2),
+                    //   }}
+                    // >
+                    //   <View style={{ width: wp("65"), height: wp("25") }}>
                     //     <Image
                     //       source={{ uri: this.state.currentItem.thumbnail }}
-                    //       style={Helpers.GLOBAL_SHEET.maxHW}
+                    //       style={{
+                    //         width: wp("65"),
+                    //         height: wp("10"),
+                    //         flex: 1,
+                    //         borderWidth: 1,
+                    //         borderColor: Helpers.Theme.blueBtnBorder,
+                    //         borderTopRightRadius: wp(5),
+                    //         borderTopLeftRadius: wp(5),
+                    //       }}
                     //     />
-
-                    //     {this.state.currentItem.is_premium == "1"
-                    //       ? [
-                    //           <Image
-                    //             source={Helpers.Images.featuredBadge}
-                    //             style={styles.listBtn_leftVw_featureImg}
-                    //           />,
-                    //         ]
-                    //       : []}
-                    //   </TouchableOpacity>
-
-                    //   <View style={styles.listBtn_rightVw}>
                     //     <TouchableOpacity
                     //       style={styles.listBtn_rightVw_heartBtn}
                     //     >
@@ -807,151 +734,114 @@ class Mapviewlist extends Component {
                     //           styles.listBtn_rightVw_heartBtn_Img,
                     //           this.state.currentItem.isfav
                     //             ? { tintColor: Helpers.Theme.red }
-                    //             : {},
+                    //             : { tintColor: "#fff" },
                     //         ]}
                     //       />
                     //     </TouchableOpacity>
-
-                    //     <Text
-                    //       style={[
-                    //         Helpers.Typography.four,
-                    //         { color: "#3078ff" },
-                    //       ]}
+                    //   </View>
+                    //   <View
+                    //     style={{
+                    //       flex: 1,
+                    //       padding: wp("3"),
+                    //       justifyContent: "center",
+                    //     }}
+                    //   >
+                    //     <View
+                    //       style={{
+                    //         flexDirection: "row",
+                    //         justifyContent: "space-between",
+                    //       }}
                     //     >
-                    //       {this.state.currentItem.main_price}
                     //       <Text
-                    //         style={[
-                    //           Helpers.Typography.three,
-                    //           { color: Helpers.Theme.black },
-                    //         ]}
+                    //         style={{
+                    //           color: Helpers.Theme.darkgrey,
+                    //           fontWeight: "bold",
+                    //         }}
                     //       >
+                    //         {this.state.currentItem.name}
+                    //       </Text>
+                    //       <Text style={{ color: "green", fontWeight: "bold" }}>
                     //         {this.state.currentItem.is_branch_open}
                     //       </Text>
-                    //     </Text>
-                    //     <Text
-                    //       style={[
-                    //         Helpers.Typography.four,
-                    //         styles.listBtn_rightVw_titleTxt,
-                    //       ]}
+                    //     </View>
+                    //     <View>
+                    //       <Text
+                    //         style={{
+                    //           color: Helpers.Theme.gryBack,
+                    //           fontWeight: "bold",
+                    //         }}
+                    //       >
+                    //         {this.state.currentItem.address}
+                    //       </Text>
+                    //     </View>
+                    //     <View
+                    //       style={{
+                    //         flexDirection: "row",
+                    //         justifyContent: "space-between",
+                    //       }}
                     //     >
-                    //       {this.state.currentItem.name}
-                    //     </Text>
-                    //     {this.state.currentItem.address != null
-                    //       ? [
-                    //           <View style={styles.listBtn_rightVw_addressVw}>
-                    //             <Image
-                    //               source={Helpers.Images.pinpoint}
-                    //               style={{
-                    //                 height: wp(2.5),
-                    //                 width: wp(2.5),
-                    //                 tintColor: "#3078ff",
-                    //                 resizeMode: "contain",
-                    //               }}
-                    //             />
-                    //             <Text
-                    //               style={[
-                    //                 Helpers.Typography.three,
-                    //                 {
-                    //                   color: Helpers.Theme.darkgrey,
-                    //                   width: wp(45),
-                    //                   marginLeft: wp(1),
-                    //                 },
-                    //               ]}
-                    //             >
-                    //               {this.state.currentItem.address}
-                    //             </Text>
-                    //           </View>,
-                    //         ]
-                    //       : []}
-
-                    //     <View style={styles.listBtn_rightVw_bedbathVw}>
-                    //       <View style={{ flexDirection: "row" }}>
-                    //         <Image
-                    //           source={Helpers.Images.tag}
-                    //           style={[
-                    //             styles.listBtn_rightVw_bedbathVw_Img,
-                    //             { tintColor: "#3078ff" },
-                    //           ]}
-                    //         />
+                    //       <Text
+                    //         style={{
+                    //           color: Helpers.Theme.black,
+                    //           fontWeight: "bold",
+                    //         }}
+                    //       >
+                    //         {this.state.currentItem.branch_cost} (
+                    //         {this.state.currentItem.credits_required} credits)
+                    //       </Text>
+                    //       <TouchableOpacity onPress={this.toggleModal}>
                     //         <Text
-                    //           style={[
-                    //             Helpers.Typography.three,
-                    //             { color: Helpers.Theme.darkgrey },
-                    //           ]}
+                    //           style={{
+                    //             color: Helpers.Theme.light,
+                    //             borderRadius: wp("5"),
+                    //             paddingTop: wp("1"),
+                    //             paddingBottom: wp("1"),
+                    //             paddingLeft: wp("2"),
+                    //             paddingRight: wp("2"),
+                    //             backgroundColor: "#3078ff",
+                    //             fontWeight: "bold",
+                    //           }}
                     //         >
-                    //           {this.state.currentItem.total_capacity}
+                    //           Buy Credits
                     //         </Text>
-                    //       </View>
-                    //       <View style={styles.listBtn_rightVw_bedbathVw_twoVws}>
-                    //         <Image
-                    //           source={Helpers.Images.tick}
-                    //           style={[
-                    //             styles.listBtn_rightVw_bedbathVw_Img,
-                    //             { tintColor: "#3078ff" },
-                    //           ]}
-                    //         />
-                    //         <Text
-                    //           style={[
-                    //             Helpers.Typography.three,
-                    //             styles.listBtn_rightVw_bedbathVw_bedsTxt,
-                    //           ]}
-                    //         >
-                    //           {this.state.currentItem.spotLeft}
-                    //         </Text>
-                    //       </View>
-                    //       <View style={styles.listBtn_rightVw_bedbathVw_twoVws}>
-                    //         <Image
-                    //           source={Helpers.Images.clock}
-                    //           style={[
-                    //             styles.listBtn_rightVw_bedbathVw_Img,
-                    //             { tintColor: "#3078ff" },
-                    //           ]}
-                    //         />
-
-                    //         <Text
-                    //           style={[
-                    //             Helpers.Typography.three,
-                    //             styles.listBtn_rightVw_bedbathVw_bedsTxt,
-                    //           ]}
-                    //         >
-                    //           {this.state.currentItem.timings}
-                    //         </Text>
-                    //       </View>
+                    //       </TouchableOpacity>
                     //     </View>
                     //   </View>
-                    // </View>,
+                    // </View>
                   ]
                 : [
                     this.state.maplist.length > 0 ? (
-                      <FlatList
+                      <View
                         style={{
-                          height: wp("50"),
+                          height: wp("70"),
                           position: "absolute",
-                          bottom: wp("5"),
+                          bottom: wp("2"),
+                          justifyContent: "center",
+                          // backgroundColor:'blue'
                         }}
-                        ref={this.scrollRef}
-                        data={this.state.updatedVenues} //this.props.venueLists.results}
-                        keyExtractor={(item, index) => index.toString()}
-                        key={(item) => item.id}
-                        horizontal={true}
-                        pagingEnabled={true}
-                        onEndReached={() => this.loadMore()}
-                        onRefresh={() => this.onRefresh()}
-                        renderItem={this.renderItem}
-                        onEndReachedThreshold={0.1} // Adjust this threshold to trigger pagination appropriately
-                        initialScrollIndex={this.state.updatedVenues.length - 1}
-                        onScrollToIndexFailed={this.handleScrollToIndexFailed}
-                      />
+                      >
+                        <Carousel
+                          layout={"default"}
+                          loop={true}
+                          data={this.state.updatedVenues}
+                          renderItem={this.renderItem}
+                          sliderWidth={sliderWidth}
+                          itemWidth={itemWidth}
+                          onEndReached={() => this.loadMore()}
+                        ></Carousel>
+                      </View>
                     ) : (
                       <></>
                     ),
                   ]}
             </View>
+
             <Modal
               visible={isModalVisible}
               animationType="slide"
               transparent={true}
               onRequestClose={this.toggleModal}
+              keyboardShouldPersistTaps="handled" // Prevents view from scrolling to top
             >
               <TouchableOpacity
                 style={{
@@ -961,46 +851,50 @@ class Mapviewlist extends Component {
                   backgroundColor: "rgba(0, 0, 0, 0.5)",
                 }}
                 activeOpacity={1}
-                // onPressOut={this.toggleModal}
                 onPress={this.toggleModal}
               >
-                <View
-                  style={{
-                    backgroundColor: "white",
-                    borderTopRightRadius: wp("4"),
-                    borderTopLeftRadius: wp("4"),
-                    width: wp("100"),
-                    height: Helpers.HP("70"),
-                    padding: 16,
-                  }}
-                >
+                <ScrollView>
                   <View
                     style={{
-                      flexDirection: "row",
-                      justifyContent: "center",
-                      alignItems: "center",
+                      backgroundColor: "white",
+                      borderTopRightRadius: wp("8"),
+                      borderTopLeftRadius: wp("8"),
+                      width: wp("100"),
+                      height: Helpers.HP("100"),
+                      padding: 16,
                     }}
                   >
-                    <View style={{ flex: 1, alignItems: "center" }}>
-                      <Image
-                        source={Helpers.Images.propertyaLogo}
-                        style={styles.mainlogo}
-                      />
+                    <View
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
+                    >
+                      <View style={{ flex: 1, alignItems: "center" }}>
+                        <Image
+                          source={Helpers.Images.letsworkLogo}
+                          style={styles.mainlogo}
+                        />
+                      </View>
+
+                      <TouchableOpacity onPress={this.toggleModal}>
+                        <Text style={{ fontSize: 18, fontWeight: "bold" }}>
+                          X
+                        </Text>
+                      </TouchableOpacity>
                     </View>
 
-                    <TouchableOpacity onPress={this.toggleModal}>
-                      <Text style={{ fontSize: 18, fontWeight: "bold" }}>
-                        X
-                      </Text>
-                    </TouchableOpacity>
-                  </View>
-
-                  <View style={{ marginTop: wp("5") }}>
-                    <ToggleButton activeColor="white" inactiveColor="#cecece" />
-                  </View>
-                  <View style={{ marginTop: wp("5")}}></View>
+                    <View style={{ marginTop: wp("5") }}>
+                      <ToggleButton
+                        activeColor="white"
+                        inactiveColor="#cecece"
+                      />
+                    </View>
+                    <View style={{ marginTop: wp("5") }}></View>
                     <LoginComponent />
-                </View>
+                  </View>
+                </ScrollView>
               </TouchableOpacity>
             </Modal>
           </>

@@ -123,7 +123,7 @@ export const styles = StyleSheet.create({
         tintColor: Helpers.Theme.light, marginRight: wp(1)
     },
     listBtn_rightVw_bedbathVw_bedsTxt: { marginLeft: wp(0.5), color: Helpers.Theme.darkgrey, },
-    listBtn_rightVw_heartBtn: { position: 'absolute', right: wp(2), top: wp(2) },
+    listBtn_rightVw_heartBtn: { position: 'absolute', right: wp(4), top: wp(4) },
     listBtn_rightVw_heartBtn_Img: { height: wp(4), width: wp(4) },
 
     mainHeader: {
@@ -138,14 +138,14 @@ export const styles = StyleSheet.create({
         position: 'absolute', left: wp(5)
     },
     mainlogo: {
-        height: wp(12), width: wp(35),
+        height: wp(10), width: wp(30),
         resizeMode: "contain"
     },
     secondpartHeader_txtVw: {
         position: 'absolute', left: wp(5)
     },
     secondpartHeader_BtnVw: {
-        flexDirection: 'row', position: 'absolute', right: wp(1),
+        flexDirection: 'row', position: 'absolute', right: wp(0.5),
     },
     secondpartHeader_BtnVw_firstBtn: {
         height: wp(7), width: wp(8),

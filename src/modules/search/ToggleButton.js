@@ -22,19 +22,19 @@ class ToggleButton extends Component {
 
     const signUpButtonStyle = activeButton === 'signup'
       ? [styles.button, { backgroundColor: activeColor }]
-      : [styles.button, { backgroundColor: inactiveColor }];
+      : [styles.button];
 
     const loginButtonStyle = activeButton === 'login'
       ? [styles.button, { backgroundColor: activeColor }]
-      : [styles.button, { backgroundColor: inactiveColor }];
+      : [styles.button];
 
     const signUpTextStyle = activeButton === 'signup'
       ? [styles.buttonText, { color: '#3078ff' }]
-      : [styles.buttonText,{color:'#e5e7eb'}];
+      : [styles.buttonText,{color:'#6b7280'}];
 
     const loginTextStyle = activeButton === 'login'
       ? [styles.buttonText, { color: '#3078ff' }]
-      : [styles.buttonText,{color:'#e5e7eb'}];
+      : [styles.buttonText,{color:'#6b7280'}];
 
     return (
       <View style={styles.container}>
