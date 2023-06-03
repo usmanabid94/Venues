@@ -1490,6 +1490,7 @@ drawable src_assets_images_home
 drawable src_assets_images_homelogo
 drawable src_assets_images_hotel
 drawable src_assets_images_left_arrow
+drawable src_assets_images_letswork_logo
 drawable src_assets_images_like
 drawable src_assets_images_list
 drawable src_assets_images_locationmap

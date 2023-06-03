@@ -9,6 +9,7 @@ import {
   Modal,
   ScrollView,
   Dimensions,
+  Platform,
 } from "react-native";
 
 import * as Actions from "../../store/actions/allActions";
@@ -203,7 +204,7 @@ class Mapviewlist extends Component {
                 width: wp("40"),
                 color: "#242424",
                 fontSize: wp("4.5"),
-                fontWeight: "BrandonText-Bold",
+                fontWeight: "bold",
                 fontFamily: "BrandonText-Bold",
               }}
               numberOfLines={1}
@@ -242,7 +243,7 @@ class Mapviewlist extends Component {
             <Text
               style={{
                 color: Helpers.Theme.black,
-                fontWeight: "BrandonText-Bold",
+                fontWeight: "bold",
                 fontFamily: "BrandonText-Bold",
               }}
             >
@@ -295,6 +296,9 @@ class Mapviewlist extends Component {
 
     const sliderWidth = Dimensions.get("window").width;
     const itemWidth = slideWidth + horizontalMargin * 2;
+    const windowWidth = Dimensions.get("window").width;
+    console.log('this.state.showBottom',this.state.showBottom)
+
     return (
       <View
         style={[
@@ -351,7 +355,7 @@ class Mapviewlist extends Component {
                       {
                         color: "#fff",
                         fontFamily: "BrandonText-Regular",
-                        fontWeight: "BrandonText-Regular",
+                        fontWeight: "bold",
                         paddingTop: wp("2"),
                         paddingBottom: wp("2"),
                         paddingLeft: wp("4"),
@@ -439,7 +443,7 @@ class Mapviewlist extends Component {
                         height: wp("6"),
                         width: wp("50"),
                         fontFamily: "BrandonText-Bold",
-                        fontWeight: "BrandonText-Bold",
+                        fontWeight: "bold",
                         color: "#6b7280",
                         margin: wp("0"),
                         padding: wp("0.5"),
@@ -450,7 +454,57 @@ class Mapviewlist extends Component {
                     placeholder="Search Locations"
                   />
                 </TouchableOpacity>
+
                 <TouchableOpacity
+                  style={{
+                    width: windowWidth * 0.3,
+                    borderColor: "#e5e7eb",
+                    borderRadius: wp("8"),
+                    borderWidth: wp("0.3"),
+                    margin: wp("2"),
+                    padding: wp("1"),
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Image
+                    source={require("../../assets/images/pinpoint.png")}
+                    style={{
+                      width: wp("5"),
+                      height: wp("5"),
+                      margin: wp("0.5"),
+                      tintColor: "#3078ff",
+                    }}
+                  />
+
+                  <Text
+                    style={{
+                      color: "#000",
+                      fontFamily: "BrandonText-Bold",
+                      fontWeight: "bold",
+                      fontSize: wp("4"),
+                      margin: wp("1"),
+                      padding: wp("0.5"),
+                      height: wp("7"),
+                      textAlign: "center",
+                    }}
+                  >
+                    Dubai
+                  </Text>
+
+                  <Image
+                    source={require("../../assets/images/down_arrow.png")}
+                    style={{
+                      width: wp("3"),
+                      height: wp("3"),
+                      margin: wp("1"),
+                      tintColor: "#6b7280",
+                    }}
+                  />
+                </TouchableOpacity>
+
+                {/* <TouchableOpacity
                   style={{
                     borderColor: "#e5e7eb",
                     borderRadius: wp("8"),
@@ -471,12 +525,13 @@ class Mapviewlist extends Component {
                     }}
                   />
                   <Text
-                    style={[
+                    style={
+                      [
                       styles.secondpartHeader_txtVw_first,
                       {
-                        color: "#000",
+                        color: "#3078ff",
                         fontFamily: "BrandonText-Bold",
-                        fontWeight: "BrandonText-Bold",
+                        fontWeight: "bold",
                         fontSize: wp("4"),
                         margin: wp("1"),
                         padding: wp("0.5"),
@@ -494,7 +549,7 @@ class Mapviewlist extends Component {
                       tintColor: "#6b7280",
                     }}
                   />
-                </TouchableOpacity>
+                </TouchableOpacity> */}
               </View>
             </View>
 
@@ -504,12 +559,13 @@ class Mapviewlist extends Component {
               style={{
                 backgroundColor: "white",
                 width: wp("100"),
+                height: this.state.showBottom ? wp('150') : wp('150'),
                 flex: 1,
               }}
             >
               {/* MapStart */}
               <MapView
-                onPress={() => this.setState({ showBottom: false })}
+                onPress={() => this.setState({ showBottom: !this.state.showBottom })}
                 initialRegion={
                   this.state.maplist.length > 0
                     ? {
@@ -532,7 +588,7 @@ class Mapviewlist extends Component {
                               latitude: parseFloat(item.lat),
                               longitude: parseFloat(item.lon),
                             }}
-                            onPress={() => this.markerPressed(item)}
+                            onPress={() => {this.markerPressed(item)}}
                           >
                             <Image
                               source={Helpers.Images.customMarker}
@@ -550,264 +606,156 @@ class Mapviewlist extends Component {
               {/* map End */}
               {this.state.showBottom
                 ? [
-                    <View
-                      style={{
-                        height: wp("60"),
-                        width: "100%",
-                        padding: wp("5"),
-                        position: "absolute",
-                        bottom: wp("5"),
-                      }}
-                    >
+                    
+                    
                       <View
                         style={{
                           height: wp("60"),
                           width: "100%",
-                          alignSelf: "center",
-                          backgroundColor: Helpers.Theme.light,
-                          margin: wp(2),
-                          backgroundColor: "#FFFFFF",
-                          borderRadius: wp("5"),
-                          shadowColor: "#000000",
-                          shadowOpacity: 0.1,
-                          shadowRadius: 4,
-                          elevation: 4,
+                          padding: wp("5"),
                           position: "absolute",
                           bottom: wp("5"),
                         }}
                       >
-                        <View style={{ width: "100%", height: wp("30") }}>
-                          <Image
-                            source={{ uri: this.state.currentItem.thumbnail }}
-                            style={{
-                              width: "100%",
-                              height: wp("10"),
-                              flex: 1,
-                              borderWidth: 1,
-                              borderColor: Helpers.Theme.blueBtnBorder,
-                              borderTopRightRadius: wp(5),
-                              borderTopLeftRadius: wp(5),
-                            }}
-                          />
-                          <TouchableOpacity
-                            style={styles.listBtn_rightVw_heartBtn}
-                          >
-                            <Image
-                              source={
-                                this.state.currentItem.is_favorite
-                                  ? Helpers.Images.heartfilled
-                                  : Helpers.Images.heartEmpty
-                              }
-                              style={[
-                                styles.listBtn_rightVw_heartBtn_Img,
-                                this.state.currentItem.isfav
-                                  ? { tintColor: Helpers.Theme.red }
-                                  : { tintColor: "#fff" },
-                              ]}
-                            />
-                          </TouchableOpacity>
-                        </View>
                         <View
-                          style={{ padding: wp("3"), justifyContent: "center" }}
+                          style={{
+                            height: wp("60"),
+                            width: "100%",
+                            alignSelf: "center",
+                            backgroundColor: Helpers.Theme.light,
+                            margin: wp(2),
+                            backgroundColor: "#FFFFFF",
+                            borderRadius: wp("5"),
+                            shadowColor: "#000000",
+                            shadowOpacity: 0.1,
+                            shadowRadius: 4,
+                            elevation: 4,
+                            position: "absolute",
+                            bottom: wp("5"),
+                          }}
                         >
+                          <View style={{ width: "100%", height: wp("30") }}>
+                            <Image
+                              source={{ uri: this.state.currentItem.thumbnail }}
+                              style={{
+                                width: "100%",
+                                height: wp("10"),
+                                flex: 1,
+                                borderWidth: 1,
+                                borderColor: Helpers.Theme.blueBtnBorder,
+                                borderTopRightRadius: wp(5),
+                                borderTopLeftRadius: wp(5),
+                              }}
+                            />
+                            <TouchableOpacity
+                              style={styles.listBtn_rightVw_heartBtn}
+                            >
+                              <Image
+                                source={
+                                  this.state.currentItem.is_favorite
+                                    ? Helpers.Images.heartfilled
+                                    : Helpers.Images.heartEmpty
+                                }
+                                style={[
+                                  styles.listBtn_rightVw_heartBtn_Img,
+                                  this.state.currentItem.isfav
+                                    ? { tintColor: Helpers.Theme.red }
+                                    : { tintColor: "#fff" },
+                                ]}
+                              />
+                            </TouchableOpacity>
+                          </View>
                           <View
                             style={{
-                              flexDirection: "row",
-                              justifyContent: "space-between",
-                              alignItems: "center",
-                              bottom: wp("1"),
+                              padding: wp("3"),
+                              justifyContent: "center",
                             }}
                           >
-                            <Text
+                            <View
                               style={{
-                                width: wp("40"),
-                                color: "#242424",
-                                fontSize: wp("4.5"),
-                                fontWeight: "BrandonText-Bold",
-                                fontFamily: "BrandonText-Bold",
-                              }}
-                              numberOfLines={1}
-                              ellipsizeMode="tail"
-                            >
-                              {this.state.currentItem.name}
-                            </Text>
-                            <Text
-                              style={{
-                                color: "green",
-                                fontWeight: "bold",
-                                fontSize: wp("3.4"),
+                                flexDirection: "row",
+                                justifyContent: "space-between",
+                                alignItems: "center",
+                                bottom: wp("1"),
                               }}
                             >
-                              {this.state.currentItem.is_branch_open}
-                            </Text>
-                          </View>
-                          <View>
-                            <Text
-                              style={{
-                                color: "#999999",
-                                fontWeight: "bold",
-                                fontSize: wp("3"),
-                                marginBottom: wp("8"),
-                              }}
-                              numberOfLines={1}
-                              ellipsizeMode="tail"
-                            >
-                              {this.state.currentItem.address}
-                            </Text>
-                          </View>
+                              <Text
+                                style={{
+                                  width: wp("40"),
+                                  color: "#242424",
+                                  fontSize: wp("4.5"),
+                                  fontWeight: "bold",
+                                  fontFamily: "BrandonText-Bold",
+                                }}
+                                numberOfLines={1}
+                                ellipsizeMode="tail"
+                              >
+                                {this.state.currentItem.name}
+                              </Text>
+                              <Text
+                                style={{
+                                  color: "green",
+                                  fontWeight: "bold",
+                                  fontSize: wp("3.4"),
+                                }}
+                              >
+                                {this.state.currentItem.is_branch_open}
+                              </Text>
+                            </View>
+                            <View>
+                              <Text
+                                style={{
+                                  color: "#999999",
+                                  fontWeight: "bold",
+                                  fontSize: wp("3"),
+                                  marginBottom: wp("8"),
+                                }}
+                                numberOfLines={1}
+                                ellipsizeMode="tail"
+                              >
+                                {this.state.currentItem.address}
+                              </Text>
+                            </View>
 
-                          <View
-                            style={{
-                              flexDirection: "row",
-                              justifyContent: "space-between",
-                            }}
-                          >
-                            <Text
+                            <View
                               style={{
-                                color: Helpers.Theme.black,
-                                fontWeight: "BrandonText-Bold",
-                                fontFamily: "BrandonText-Bold",
+                                flexDirection: "row",
+                                justifyContent: "space-between",
                               }}
                             >
-                              {this.state.currentItem.branch_cost} (
-                              {this.state.currentItem.credits_required} credits)
-                            </Text>
+                              <Text
+                                style={{
+                                  color: Helpers.Theme.black,
+                                  fontWeight: "bold",
+                                  fontFamily: "BrandonText-Bold",
+                                }}
+                              >
+                                {this.state.currentItem.branch_cost} (
+                                {this.state.currentItem.credits_required}{" "}
+                                credits)
+                              </Text>
 
-                            <Text
-                              style={{
-                                color: Helpers.Theme.light,
-                                borderRadius: wp("5"),
-                                backgroundColor: "#3078ff",
-                                fontWeight: "bold",
-                                fontSize: wp("3"),
-                                paddingTop: wp("1"),
-                                paddingBottom: wp("1"),
-                                paddingRight: wp("5"),
-                                paddingLeft: wp("5"),
-                              }}
-                              onPress={this.toggleModal}
-                            >
-                              Buy Credits
-                            </Text>
+                              <Text
+                                style={{
+                                  color: Helpers.Theme.light,
+                                  borderRadius: wp("5"),
+                                  backgroundColor: "#3078ff",
+                                  fontWeight: "bold",
+                                  fontSize: wp("3"),
+                                  paddingTop: wp("1"),
+                                  paddingBottom: wp("1"),
+                                  paddingRight: wp("5"),
+                                  paddingLeft: wp("5"),
+                                }}
+                                onPress={this.toggleModal}
+                              >
+                                Buy Credits
+                              </Text>
+                            </View>
                           </View>
                         </View>
                       </View>
-                    </View>,
-                    // <View
-                    //   style={{
-                    //     height: wp("50"),
-                    //     width: wp("65"),
-                    //     alignSelf: "center",
-                    //     borderWidth: 1,
-                    //     borderColor: Helpers.Theme.blueBtnBorder,
-                    //     borderRadius: wp(5),
-                    //     backgroundColor: Helpers.Theme.light,
-                    //     margin: wp(2),
-                    //     position: "absolute",
-                    //     bottom: wp("5"),
-                    //     // paddingLeft: wp(2),
-                    //   }}
-                    // >
-                    //   <View style={{ width: wp("65"), height: wp("25") }}>
-                    //     <Image
-                    //       source={{ uri: this.state.currentItem.thumbnail }}
-                    //       style={{
-                    //         width: wp("65"),
-                    //         height: wp("10"),
-                    //         flex: 1,
-                    //         borderWidth: 1,
-                    //         borderColor: Helpers.Theme.blueBtnBorder,
-                    //         borderTopRightRadius: wp(5),
-                    //         borderTopLeftRadius: wp(5),
-                    //       }}
-                    //     />
-                    //     <TouchableOpacity
-                    //       style={styles.listBtn_rightVw_heartBtn}
-                    //     >
-                    //       <Image
-                    //         source={
-                    //           this.state.currentItem.is_favorite
-                    //             ? Helpers.Images.heartfilled
-                    //             : Helpers.Images.heartEmpty
-                    //         }
-                    //         style={[
-                    //           styles.listBtn_rightVw_heartBtn_Img,
-                    //           this.state.currentItem.isfav
-                    //             ? { tintColor: Helpers.Theme.red }
-                    //             : { tintColor: "#fff" },
-                    //         ]}
-                    //       />
-                    //     </TouchableOpacity>
-                    //   </View>
-                    //   <View
-                    //     style={{
-                    //       flex: 1,
-                    //       padding: wp("3"),
-                    //       justifyContent: "center",
-                    //     }}
-                    //   >
-                    //     <View
-                    //       style={{
-                    //         flexDirection: "row",
-                    //         justifyContent: "space-between",
-                    //       }}
-                    //     >
-                    //       <Text
-                    //         style={{
-                    //           color: Helpers.Theme.darkgrey,
-                    //           fontWeight: "bold",
-                    //         }}
-                    //       >
-                    //         {this.state.currentItem.name}
-                    //       </Text>
-                    //       <Text style={{ color: "green", fontWeight: "bold" }}>
-                    //         {this.state.currentItem.is_branch_open}
-                    //       </Text>
-                    //     </View>
-                    //     <View>
-                    //       <Text
-                    //         style={{
-                    //           color: Helpers.Theme.gryBack,
-                    //           fontWeight: "bold",
-                    //         }}
-                    //       >
-                    //         {this.state.currentItem.address}
-                    //       </Text>
-                    //     </View>
-                    //     <View
-                    //       style={{
-                    //         flexDirection: "row",
-                    //         justifyContent: "space-between",
-                    //       }}
-                    //     >
-                    //       <Text
-                    //         style={{
-                    //           color: Helpers.Theme.black,
-                    //           fontWeight: "bold",
-                    //         }}
-                    //       >
-                    //         {this.state.currentItem.branch_cost} (
-                    //         {this.state.currentItem.credits_required} credits)
-                    //       </Text>
-                    //       <TouchableOpacity onPress={this.toggleModal}>
-                    //         <Text
-                    //           style={{
-                    //             color: Helpers.Theme.light,
-                    //             borderRadius: wp("5"),
-                    //             paddingTop: wp("1"),
-                    //             paddingBottom: wp("1"),
-                    //             paddingLeft: wp("2"),
-                    //             paddingRight: wp("2"),
-                    //             backgroundColor: "#3078ff",
-                    //             fontWeight: "bold",
-                    //           }}
-                    //         >
-                    //           Buy Credits
-                    //         </Text>
-                    //       </TouchableOpacity>
-                    //     </View>
-                    //   </View>
-                    // </View>
+                    
                   ]
                 : [
                     this.state.maplist.length > 0 ? (

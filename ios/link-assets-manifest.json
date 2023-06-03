@@ -1,0 +1,45 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Asap-Bold.ttf",
+      "sha1": "d35a2a9585f77c48765049501edc25f717eb5cd0"
+    },
+    {
+      "path": "src/assets/fonts/Asap-BoldItalic.ttf",
+      "sha1": "a24397c5881a47e5ccffaf33f230dec43bb95a89"
+    },
+    {
+      "path": "src/assets/fonts/Asap-Italic.ttf",
+      "sha1": "00ab66051e2b49e82da89c7e9ab631a09e963fcb"
+    },
+    {
+      "path": "src/assets/fonts/Asap-Medium.ttf",
+      "sha1": "fe99929eb9db10885fa860af8603ca888211e584"
+    },
+    {
+      "path": "src/assets/fonts/Asap-MediumItalic.ttf",
+      "sha1": "f78f965b2d9347fee6af4ae0b45d97e07151060c"
+    },
+    {
+      "path": "src/assets/fonts/Asap-Regular.ttf",
+      "sha1": "319babf083c3c207497df47d31e02b928a3ffaad"
+    },
+    {
+      "path": "src/assets/fonts/Asap-SemiBold.ttf",
+      "sha1": "0881fe20c6b3b33264fd2456e14da91da49148f3"
+    },
+    {
+      "path": "src/assets/fonts/Asap-SemiBoldItalic.ttf",
+      "sha1": "1860ba536fc7263e799f582318eadc93a2428cac"
+    },
+    {
+      "path": "src/assets/fonts/BrandonText-Bold.otf",
+      "sha1": "3b993afcc8fbc2d674d1ae9a72f6a596af6abcf0"
+    },
+    {
+      "path": "src/assets/fonts/BrandonText-Regular.otf",
+      "sha1": "522a98a0e80e89d37b709da274ad60874c55c392"
+    }
+  ]
+}
